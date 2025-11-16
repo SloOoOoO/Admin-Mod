@@ -1,0 +1,434 @@
+<Group>
+  <ToolOneVersion>10</ToolOneVersion>
+  <Groups>
+    <Group>
+      <Name>Balancing</Name>
+      <UseParentGUIDRange>1</UseParentGUIDRange>
+      <FileName>data/base/config/console/balancing/balancing.xml</FileName>
+    </Group>
+    <Group>
+      <Name>VibrationEffects</Name>
+      <UseParentGUIDRange>1</UseParentGUIDRange>
+      <Assets>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>6924</GUID>
+              <Name>BuildObject</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-21 11:56</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityRight>0.2</VibrationIntensityRight>
+              <VibrationIntensityLeft>0.2</VibrationIntensityLeft>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7001</GUID>
+              <Name>BuildObjectBlueprint</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:45</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.2</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.2</VibrationIntensityRight>
+              <VibrationEasing>EaseInSine</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7002</GUID>
+              <Name>UpgradeObject</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:45</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>500</VibrationDuration>
+              <VibrationIntensityLeft>0.12</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.12</VibrationIntensityRight>
+              <VibrationEasing>EaseInOutSine</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7003</GUID>
+              <Name>BuildToolMoveStart</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:46</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.03</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.03</VibrationIntensityRight>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7004</GUID>
+              <Name>BuildToolMoveEnd</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:46</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.05</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.05</VibrationIntensityRight>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7005</GUID>
+              <Name>BuildToolCopyObject</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:47</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.03</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.03</VibrationIntensityRight>
+              <VibrationEasing>EaseIn</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7006</GUID>
+              <Name>BuildToolDemolishObject</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:47</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>300</VibrationDuration>
+              <VibrationIntensityLeft>0.4</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.4</VibrationIntensityRight>
+              <VibrationEasing>EaseOut</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7007</GUID>
+              <Name>EnterWorldMap</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:47</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>1500</VibrationDuration>
+              <VibrationIntensityLeft>0.05</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.05</VibrationIntensityRight>
+              <VibrationEasing>EaseOut</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7008</GUID>
+              <Name>ShipCommandMove</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:47</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>100</VibrationDuration>
+              <VibrationIntensityLeft>0.15</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.15</VibrationIntensityRight>
+              <VibrationEasing>EaseOutBounce</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7009</GUID>
+              <Name>ShipCommandEscort</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:47</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>120</VibrationDuration>
+              <VibrationIntensityLeft>0.1</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.1</VibrationIntensityRight>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7010</GUID>
+              <Name>ShipCommandPickUp</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:47</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.08</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.08</VibrationIntensityRight>
+              <VibrationEasing>EaseOutSine</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7011</GUID>
+              <Name>ShipCommandAttack</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:48</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.6</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.6</VibrationIntensityRight>
+              <VibrationEasing>EaseOutBounce</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <GUID>7012</GUID>
+              <Name>ShipCommandUseItem</Name>
+              <Creator>jharder</Creator>
+              <CreationTime>2022-09-22 13:48</CreationTime>
+              <LastChangeUser>lpfeiffer</LastChangeUser>
+              <LastChangeTime>2025-09-29 14:54</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.6</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.6</VibrationIntensityRight>
+              <VibrationEasing>EaseOutBounce</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <Name>CombatProjectileLaunch</Name>
+              <GUID>14031</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-01-24 11:10</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-01-23 17:05</CreationTime>
+              <LastChangeTime>2023-01-23 17:05</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>100</VibrationDuration>
+              <VibrationIntensityLeft>0.2</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.2</VibrationIntensityRight>
+              <VibrationEasing>EaseOut</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <Name>CombatProjectileImpact</Name>
+              <GUID>14040</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-01-24 11:10</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-01-23 17:05</CreationTime>
+              <LastChangeTime>2023-01-23 17:05</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>50</VibrationDuration>
+              <VibrationIntensityLeft>0.15</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.15</VibrationIntensityRight>
+              <VibrationEasing>EaseOut</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadVibrationEffect</Template>
+          <Values>
+            <Standard>
+              <Name>IncidentExplosion</Name>
+              <GUID>14135</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-01-25 13:06</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-01-25 13:06</CreationTime>
+              <LastChangeTime>2023-01-25 13:06</LastChangeTime>
+            </Standard>
+            <GamepadVibrationEffect>
+              <VibrationDuration>200</VibrationDuration>
+              <VibrationIntensityLeft>0.5</VibrationIntensityLeft>
+              <VibrationIntensityRight>0.5</VibrationIntensityRight>
+              <VibrationEasing>EaseOut</VibrationEasing>
+            </GamepadVibrationEffect>
+          </Values>
+        </Asset>
+      </Assets>
+    </Group>
+    <Group>
+      <Name>AdaptiveTriggerEffects</Name>
+      <Assets>
+        <Asset>
+          <Template>GamepadAdaptiveTriggerEffect</Template>
+          <Values>
+            <Standard>
+              <Name>ResidentCameraRun</Name>
+              <GUID>11463</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-01-27 14:49</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-01-03 16:13</CreationTime>
+              <LastChangeTime>2023-01-03 16:13</LastChangeTime>
+            </Standard>
+            <AdaptiveTriggerEffect>
+              <Effect_EndPosition>9</Effect_EndPosition>
+              <Effect_ApplyToRightTrigger>1</Effect_ApplyToRightTrigger>
+              <Effect_EffectType>SlopeFeedbackMode</Effect_EffectType>
+              <Effect_EndStrength>2</Effect_EndStrength>
+              <Effect_StartStrength>1</Effect_StartStrength>
+            </AdaptiveTriggerEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadAdaptiveTriggerEffect</Template>
+          <Values>
+            <Standard>
+              <Name>ResidentCameraSpawnWater</Name>
+              <GUID>14440</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-01-27 14:57</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-01-27 13:56</CreationTime>
+              <LastChangeTime>2023-01-03 16:13</LastChangeTime>
+            </Standard>
+            <AdaptiveTriggerEffect>
+              <Effect_EndPosition>3</Effect_EndPosition>
+              <Effect_EndStrength>8</Effect_EndStrength>
+              <Effect_StartPosition>2</Effect_StartPosition>
+              <Effect_ApplyToLeftTrigger>1</Effect_ApplyToLeftTrigger>
+              <Effect_StartStrength>1</Effect_StartStrength>
+            </AdaptiveTriggerEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadAdaptiveTriggerEffect</Template>
+          <Values>
+            <Standard>
+              <Name>ResidentCameraRunOffStreet</Name>
+              <GUID>14443</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-01-27 17:04</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-01-27 16:14</CreationTime>
+              <LastChangeTime>2023-01-03 16:13</LastChangeTime>
+            </Standard>
+            <AdaptiveTriggerEffect>
+              <Effect_EndPosition>3</Effect_EndPosition>
+              <Effect_EndStrength>12</Effect_EndStrength>
+              <Effect_StartPosition>2</Effect_StartPosition>
+              <Effect_StartStrength>2</Effect_StartStrength>
+              <Effect_EffectType>VibrationMode</Effect_EffectType>
+              <Effect_ApplyToRightTrigger>1</Effect_ApplyToRightTrigger>
+            </AdaptiveTriggerEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadAdaptiveTriggerEffect</Template>
+          <Values>
+            <Standard>
+              <Name>OpenConstructionMenu</Name>
+              <GUID>21103</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-03-27 14:32</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-03-27 12:49</CreationTime>
+              <LastChangeTime>2023-01-03 16:13</LastChangeTime>
+            </Standard>
+            <AdaptiveTriggerEffect>
+              <Effect_ApplyToRightTrigger>1</Effect_ApplyToRightTrigger>
+              <Effect_EndStrength>1</Effect_EndStrength>
+              <Effect_StartPosition>2</Effect_StartPosition>
+            </AdaptiveTriggerEffect>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GamepadAdaptiveTriggerEffect</Template>
+          <Values>
+            <Standard>
+              <Name>OpenNavigationMenu</Name>
+              <GUID>21105</GUID>
+              <Creator>jharder</Creator>
+              <LastChangeUser>jharder</LastChangeUser>
+              <LastChangeTime>2023-03-27 17:15</LastChangeTime>
+              <LastChangeUser>jharder</LastChangeUser>
+              <CreationTime>2023-03-27 12:50</CreationTime>
+              <LastChangeTime>2023-01-03 16:13</LastChangeTime>
+            </Standard>
+            <AdaptiveTriggerEffect>
+              <Effect_EndStrength>1</Effect_EndStrength>
+              <Effect_ApplyToLeftTrigger>1</Effect_ApplyToLeftTrigger>
+              <Effect_StartPosition>2</Effect_StartPosition>
+            </AdaptiveTriggerEffect>
+          </Values>
+        </Asset>
+      </Assets>
+    </Group>
+  </Groups>
+</Group>

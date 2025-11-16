@@ -1,0 +1,4133 @@
+i:data/ui/credits/logo_ubisoft.png
+h:HELLO, FELLOW GOVERNORS!
+n:The time has come- Anno 117: Pax Romana is finally in your hands and we couldn’t be more proud.
+n:     
+Inspired by one of history’s most captivating empires, this game was built with passion, heart, and a deep love for the world of Anno."
+n:     
+A massive thank you to our incredible team and partners for their creativity and dedication, and to our amazing fans whose support and ideas helped shape every corner of this experience. We hope you find joy, challenge, and wonder in the world we've crafted."
+n:     
+And now, don your togas and stolas, the stage is yours! We can't wait to witness the cities you raise, the marvels you build, the stories you craft, and the legacy you forge.
+n:      
+n:Manuel, on behalf of the entire Anno team
+
+h:DEVELOPMENT TEAM
+h:IN MEMORY OF CHARLES HARRIBEY
+n:     
+
+l:EXECUTIVE PRODUCER
+r:Stéphane Jankowski
+l:PROJECT LEADS
+r:Christoph Knauz
+r:Nadin Bernstorff
+l:CREATIVE DIRECTOR
+r:Manuel Reinher
+l:GAME DIRECTOR
+r:Jan Dungel
+l:TECHNICAL DIRECTORS
+r:Kevin Zellner
+r:Thomas Stein
+l:ART DIRECTOR
+r:Reiko Gross
+l:QA MANAGER
+r:Dorina Mayer
+l:AUDIO DIRECTOR
+r:Florian Jensen
+l:BRAND DIRECTOR
+r:Haye Anderson
+
+l:ART
+l:LEAD ARTISTS
+r:Raphael Koller
+r:Tim Witprächtiger
+l:ART TEAM
+r:André Hentzien
+r:Andre Schliecker
+r:Carsten Eckhardt
+r:Damian Bonczyk
+r:David Shelton
+r:Dmitrii Strelkov
+r:Jan Goszyk
+r:Janrike Berger
+r:Laura Piossek
+r:Marion Stalke
+r:Nicolas Vong
+r:Oliver Mertins
+r:Rolf Bertz
+r:Thomas Vogel
+r:Zsófia Döme
+
+l:AUDIO TEAM
+r:Adam Tsui
+r:Florian Nagel
+r:Lucas Ciba
+
+l:GAME DESIGN
+l:LEAD GAME DESIGNERS
+r:Andrea Fricke
+r:Volker Sassen
+l:GAME DESIGN TEAM
+r:Christian Schneider
+r:Dominik Kirner
+r:Emese-Anna Hoppa
+r:Krzysztof Wydrzycki
+r:Markus Werner
+r:Nicolas Magnier
+r:Tobias Kalle
+
+l:GAMEPLAY PROGRAMMING
+l:LEAD GAMEPLAY PROGRAMMERS
+r:Jakob Harder
+r:Nicolas Sakschewski
+l:GAMEPLAY PROGRAMMING TEAM
+r:Christian Rösch
+r:Florian Ruf
+r:Ivan Miasnikov
+r:Jan Gihr
+r:Jannik Lietz
+r:Jannis Harder
+r:Jan-Philipp Fahlbusch
+r:Joachim Schaub
+r:Johannes Eichner
+r:Jonas Förster
+r:Jordan Hagemeier
+r:Kilian Werner
+r:Martin Tillmann
+r:Maximilian Euler
+r:Sebastian Stauß
+r:Sebastian Wenz
+l:UI PROGRAMMING TEAM
+r:Christian Burmeister
+r:Rico Kenzler
+
+l:NARRATIVE
+l:LEAD NARRATIVE DESIGNER
+r:David Daubitz
+l:NARRATIVE DESIGN TEAM
+r:Caoláin Porter
+r:Elena Knoedler
+r:Natacha Hentzien
+r:Philip Daay
+r:Sarah Arellano
+r:Stefanie Schornsheim
+r:Tim Schuchert
+l:WRITING TEAM
+r:Jannika Newen
+r:Matt Cook
+l:ADDITIONAL NARRATIVE SUPPORT
+r:Ben Angell
+r:Jan van Hassel
+r:Radu-Dumitru Barbosa
+r:Sebastian Denzer
+
+l:LEVEL ART
+l:LEAD LEVEL ARTIST
+r:Andreas Moritz
+l:LEVEL ART TEAM
+r:Björn Frechenhäuser
+r:Jakob Kirchhoff
+r:Michael Diener
+r:Paul Kunz
+r:Simon Wolf
+
+l:PRODUCTION TEAM
+r:Dennis Berghaus
+r:Gabriel Ratano
+r:Juliane Bogenschütz
+r:Toober Nguyen
+
+l:QUALITY ASSURANCE
+l:LEAD DEVELOPMENT TESTER
+r:Monika Golesne
+l:COMPLIANCE COORDINATOR
+r:Steffen Engelhard
+l:DEVELOPMENT TEST TEAM
+r:Alessandro Mazza
+r:Andrei Cretu
+r:Damien Füllbeck
+r:James Kirk
+r:Jan Heigl
+r:Nadiia Ivanisova
+r:Nora Pietzsch
+r:Radu Morariu
+r:Sascha Kohlmann
+r:Tim Herlan
+r:Tim Köhler
+
+l:RESEARCH & DEVELOPMENT
+l:LEAD 3D PROGRAMMER
+r:Wolfgang Klose
+l:3D PROGRAMMERS
+r:Aaron Scherzinger
+r:Frank Hoffmann
+r:Jan Kelling
+r:Ramin Safarpour
+r:Tim Kaiser
+
+l:TOOLS PROGRAMMING
+l:LEAD TOOLS PROGRAMMER
+r:Loki Dalecke
+l:TOOLS PROGRAMMING TEAM
+r:Andreas Pitsch
+r:Daniel Heinz
+r:Lars Pfeiffer
+r:Nick Hügin
+r:Additional Tools Support
+r:Matthias Stefan
+r:Build and Release Engineers
+r:Denis Egorov
+r:Florian Turbanisch
+l:ADDITIONAL TOOLS TESTING
+r:Andrei Tillman
+
+l:UI DESIGN
+l:LEAD UI DESIGNERS
+r:Alexander Gibson
+r:Jan Wawrzik
+l:UI DESIGN TEAM
+r:Angus Jewkes
+r:Benjamin Clendon
+r:Biên Thuy Tran
+r:Carlos Cervantes
+r:Christoph Weber
+r:Elisabetta Andreini
+r:Eva Kaup
+r:Hong Nhung Hoang
+r:Khajag Jabaghchourian
+r:Max Pellegrino
+r:Nur Farah Ain Mahadon
+r:Additional UI Support
+r:Anastasiia Tataurova
+
+l:CINEMATICS
+l:LEAD CREATIVE PRODUCTIONS
+r:Darius Meyer
+l:CREATIVE PRODUCTIONS TEAM
+r:Baschir Ibrahim
+r:Diego Rojas
+r:Julia Koep
+l:BRAND TEAM
+r:Clémentine An-Hon
+r:Lisa-Maria Wittmann
+r:Tommaso Jakob
+l:COMMUNITY TEAM
+r:Oliver Walz
+r:Celeste Romano
+
+l:CONSUMER & MARKETING INTELLIGENCE
+l:LEAD DATA ANALYST
+r:Dmitry Salimov
+l:DATA ANALYSIS TEAM
+r:Emma Kraft
+r:Erik Olsson Markesjo
+l:PRODUCTION INTELLIGENCE ANALYST
+r:Marouane Benmessaoud
+
+l:USER RESEARCH DÜSSELDORF
+l:USER RESEARCH MANAGER
+r:Jochen Peketz
+l:USER RESEARCH TEAM
+r:Daniela Bunkowski
+r:Dirk Hannusch
+r:Janine Dieterich
+r:Ronja Rotthaler
+h:SPECIAL THANKS
+r:Alexander Guettler, the original author of the Anno 1800 mod loader
+r:Joey "Taka" Neil
+r:Radlerauge
+r:Valentin "Valle" Stüttgen
+r:Andrew Bradley
+r:Owen Phillips, Gate Foot Forge
+r:Max Röhrbein-Kling
+r:Nicolas Machmer
+
+h:UBISOFT UKRAINE STUDIOS
+l:MANAGING DIRECTOR
+r:Olga Sendziuk
+l:COMMUNICATIONS
+l:COMMUNICATIONS DIRECTOR
+r:Kateryna Fomina
+l:COMMUNICATIONS SPECIALISTS
+r:Anastasia Korichenko
+r:Bogdana Chumak 
+l:FINANCE & ADMINISTRATION
+l:FINANCE AND ADMINISTRATION DIRECTOR
+r:Olha Lysach
+l:FINANCIAL PLANNING ANALYSTS
+r:Olesia Andreieva
+r:Kyrylo Sulim
+l:CHIEF ACCOUNTANT
+r:Roman Yatskanych
+l:ACCOUNTANTS
+r:Nataliia Rudyk
+r:Olga Kondratiuk
+r:Dmytro Mazuryk
+l:LEGAL COUNSEL
+r:Viacheslav Rozhok
+l:PROCUREMENT SPECIALIST
+r:Kateryna Huryna
+l:HUMAN RESOURCES
+l:HR DIRECTOR
+r:Nataliia Snopko
+l:TOTAL REWARDS & HR OPS MANAGER
+r:Lesya Khilchevska
+l:TALENT ACQUISITION COORDINATOR
+r:Fedir Manchenko
+l:HR BUSINESS PARTNERS
+r:Kateryna Kolosova
+r:Svitlana Blashkevych
+r:Olha Cherednyk
+r:Vladyslava Shylova
+r:Yuliia Petruk
+l:TALENT ACQUISITION SPECIALIST
+r:Yevhenii Sukhonos
+l:LEARNING & DEVELOPMENT SPECIALIST
+r:Dmytro Popovichenko
+l:PRODUCTION
+l:STUDIO PRODUCTION DIRECTOR
+r:Andrei Lange
+l:QUALITY CONTROL
+l:QC DIRECTOR
+r:Alexandru Micu
+l:QC OPERATIONS DIRECTOR
+r:Sabin-Florian Stefanescu
+l:QC PROJECT MANAGER
+r:Mihaela-Cristina Antohe
+l:QC PROJECT LEAD
+r:Denys Saranchuk
+r:Dmytro Horelov
+r:Oleksandr Odnokozov
+r:Yuliia Kyrychenko
+l:FUNCTIONALITY TEST COORDINATORS
+r:Dmytro Petrov
+r:Iryna Larina
+r:Mykola Horbach
+r:Olha Khokhlova 
+l:FUNCTIONALITY TESTERS
+r:Anastasiia Ovcharenko
+r:Andrii Minenko
+r:Anton Lukashenko
+r:Anton Rykhlik
+r:Denys Bezymyannyy
+r:Denys Diachenko
+r:Denys Shovkoplias
+r:Dmytro Koberniuk
+r:Inna Halushchak
+r:Ivan Shtykh
+r:Khrystyna Stepanishyna
+r:Maksym Yaremiichuk
+r:Mykhailo Kyryliuk
+r:Oleksandr Bykovskyi
+r:Oleksii Fedorych
+r:Pavlo Sharkyi
+r:Serhii Zhabskyi
+r:Veronika Podmazko
+r:Vitalii Podoliak
+r:Vladyslav Levytskyi
+r:Volodymyr Hut
+r:Volodymyr Moniava
+r:Yaroslav Havrylyshyn
+r:Yevhenii Bielov
+r:Yevhen Makukhin
+r:Yevhenii Yashchenko
+ 
+l:SPECIAL THANKS
+r:Anton Sukhyi
+r:Oleksandr Bahlai
+r:Pavlo Oliinyk
+r:Vadym Pantus
+r:Viktor Kulkov
+r:Volodymyr Kunets
+r:Volodymyr Kurchenko
+r:Vsevolod Maiboroda
+r:Yevhenii Fediai
+r:Yevhenii Kordyk
+ 
+l:STUDIO OPERATIONS
+l:ACTING STUDIO OPERATIONS DIRECTOR
+r:Marius Enciu
+l:IT AREA MANAGER
+r:Denis Skuz
+l:LOCAL IT SUPPORT TEAM LEAD
+r:Oleksandr Radchenko
+l:LOCAL IT SUPPORT TECHNICIANS
+r:Ioann Boholiubskyi
+r:Oleksandr Eisman
+r:Vasyl Kuksin
+r:Dmytro Sokur
+l:ASSET MANAGEMENT SPECIALISTS
+r:Oleksandr Kantseliaryst
+r:Volodymyr Savostianov
+l:PHYSICAL SECURITY SPECIALIST
+r:Artur Liutov
+l:WORKPLACE MANAGER
+r:Olena Ostapchuk
+l:WORKPLACE COORDINATOR
+r:Myroslava Khropot
+l:WORKPLACE SPECIALISTS
+r:Hanna Kurhanova
+r:Viacheslav Luzan
+r:Vitalii Tabuntsov
+l:WORKPLACE ASSISTANT
+r:Liudmyla Antonenko
+l:HANDYMAN
+r:Mykola Dehtiarov
+l:SAFETY & SECURITY SPECIALIST
+r:Andrii Zhukovskiy
+
+h:UBISOFT MONTREAL
+l:COMPLIANCE TEAM
+l:WORLDWIDE QUALITY CONTROL DIRECTOR
+r:Pierre Jouen
+l:MONTREAL TEST SPECIALIZED MANAGER
+r:Patrice St-Pierre Plamondon
+l:COMPLIANCE TEAM LEAD
+r:Claire Naval
+r:Emily Maclean
+l:COMPLIANCE TEST COORDINATOR
+r:Ashley Miles
+r:Rachel Church
+l:COMPLIANCE SPECIALIST
+r:Bradley Kane
+r:Christian Tremblay
+r:Amelie Nolin
+ 
+h:UBISOFT UKRAINE STUDIOS
+l:TECHNICAL STANDARDS MANAGER
+r:Alisa Polishchuk
+
+l:UOR/NETWORKING KYIV
+l:UOR/NETWORKING LEADS
+r:Ilona Berloh
+r:Kateryna Korysheva
+ 
+l:UOR/NETWORKING COORDINATORS
+r:Artem Hoshtynar
+r:Dmytro Dmyterko
+r:Maksym Slobodianiuk
+ 
+l:UOR/Networking Specialists
+r:Anna Tsybel
+r:Bohdan Honcharov
+r:Dmytro Ivanov
+r:Ihor Chernenko
+r:Illia Dir
+r:Taras Kovtun
+r:Veronika Dorofeieva
+r:Vitalii Shevchenko
+r:Vladyslav Ponomarenko
+ 
+l:PC REQUIREMENTS KYIV
+l:PC REQUIREMENTS LEAD
+r:Bogdan Kozhura
+l:PC REQUIREMENTS SPECIALIST
+r:Andrii Petrov
+r:Igor Svyryd
+r:Oleksandr Ilnytskyi
+r:Robert Perimov
+r:Yaroslav Shcherban
+r:Yevhenii Makohonov
+l:PC REQUIREMENTS ODESA
+l:PC REQUIREMENTS LEAD
+r:Gabriel-Costin Nartea
+l:PC REQUIREMENTS SPECIALIST
+r:Mykhailo Malii
+r:Oleh Klymenko
+r:Oleh Kucherenko
+
+l:UX REQUIREMENTS KYIV
+l:UX REQUIREMENTS LEAD
+r:Nicolae Vlad Popa
+l:UX REQUIREMENTS SPECIALIST
+r:Volodymyr Novikov
+r:Ivan Tsukanov
+r:Daria Machuska
+r:Bohdan Manko
+
+l:KYIV AUTOMATION TEAM
+l:DEVELOPMENT DIRECTOR
+r:Marcin Pieprzowski
+l:PROJECT COORDINATOR
+r:Alisa Fursaieva
+l:AUTOMATION ENGINEER
+r:Anton Panasenkov
+r:Artem Solodov
+r:Kostiantyn Babii
+r:Kostiantyn Kosenkov
+r:Yevhenii Nelepov
+
+h:UBISOFT INDIA STUDIO
+l:TELEMETRY TEAM PUNE
+l:QC MANAGER - TSD
+r:Abhishek Sahu
+l:QC TELEMETRY LEAD
+r:Priyanka Thombre
+l:QC TELEMETRY SPECIALISTS
+r:Sri Krishna Potnuru
+r:Shubham Malav
+r:Maranmi Rephung
+
+h:UBISOFT BUCHAREST
+l:ACCESSIBILITY
+l:QC TECHNICAL STANDARDS MANAGER
+r:Adrian Tila
+l:ACCESSIBILITY TEAM LEAD
+r:Andrei Bogdan Sandru
+l:ACCESSIBILITY LEAD TESTER
+r:Stefan Borac
+l:ACCESSIBILITY SPECIALIST
+r:Mihaela Savu
+r:Denis-Florentina Cernat
+r:Roxana-Mihaela Popescu
+r:Ana-Maria Dinu
+
+l:QC BALANCING TEAM
+l:QC BALANCING TEAM LEAD
+r:Taofik Jawich
+l:GAME BALANCING SPECIALIST
+r:Adrian Valentin Mincan
+r:Andreea Radulescu
+r:Andrei-Antonio Ruse
+r:Andrei-Remus Horotan
+r:Andrei-Sebastian Baba
+r:Dan Cosma
+r:Iulia Cristina Florescu
+r:Nicolae-Florin-Cristian Ene
+r:Ovidiu-Madalin Chifa
+r:Robert-Cosmin Cariman
+
+h:USER RESEARCH NORTH AMERICA
+l:DIRECTION
+r:Philippe Leduc
+r:Aline Boissonnet
+r:Jean-Christophe Gagnon
+r:Virginie Soulier
+
+l:MANAGEMENT
+r:Julien Huguenin
+r:Myriam Brunet-Gauthier
+r:Pierre Chalfoun
+r:Sébastien Huard
+
+l:TEAM LEADS
+r:Cameron Hare
+r:Scott Shirhall
+r:Valérie Crête
+
+l:ANALYSTS
+r:Atiya Nova
+r:Christine Chen
+r:Laura Whitlock
+r:Maylis Merveilleux
+r:Riley Carr
+r:Robert Kulasingam
+r:Sia Eftekharifar
+
+l:CRAFT LEADS
+r:Camille Blais-Rochette
+r:Elise Bisson
+r:Eric Landry
+
+l:LOGISTICS
+r:Alexander Asturias
+r:Benoît Brière
+r:Klarissa Armada
+r:Paul Accard
+r:Pierre Boyer
+r:Stéphane Hébert
+
+h:OUTSOURCING
+h:FORGOTTEN EMPIRES LLC
+l:STUDIO LEADERSHIP
+r:Ryan Shepherd
+r:Bert Beeckman
+r:Alexander Flegler
+
+l:UI DESIGNERS
+r:Peter Piepenburg
+r:Sebastian Bretthauer
+r:Juan Manuel Casado Ruiz
+h:GLASS EGG - A VIRTUOS STUDIO 
+l:GENERAL MANAGER
+r:Nam Nguyen Hoai
+l:HEAD OF PRODUCTION
+r:Thuy Le Hoang Nguyen
+l:TECHNICAL DIRECTOR
+r:Quy Nguyen Dang
+l:ART DIRECTOR / MANAGER
+r:Hang Do Thi Thu
+r:Ly Nguyen Thi
+l:TECH MANAGER / SUPERVISOR
+r:Tung Le Phan Thanh
+r:Hao Nguyen Xuan Nhu
+l:PRODUCER / TEAM LEAD
+r:Tung Le Xuan
+r:Luan Tang Chi
+l:3D ENVIRONMENT ARTISTS
+r:Anh Nguyen Thi Kim
+r:Duong Nguyen Van Huong
+r:Hien Ho Thi Thu
+r:Huy Diep Quoc Hoang
+r:Ngan Tran Thi
+r:Vu Le Song
+r:Vinh Gia Luong
+r:Khanh Luu Han
+h:ROOM8 STUDIO
+l:ACCOUNT MANAGER
+r:Maksym Streltsov
+l:STYLIZED 3D ENVIRONMENT ART DIRECTOR
+r:Maryia Sazonova
+l:ART PRODUCER
+r:Anastasiia Kozak
+l:STYLIZED 3D ENVIRONMENT PROJECT LEAD
+r:Yana Popova
+r:Anastasia Melikova
+l:STYLIZED 3D ENVIRONMENT ARTIST
+r:Artur Romanov
+r:Kateryna Kharlamova
+r:Oxana Kusaya
+r:Oleksandr Kondratenko
+r:Xavier Salvador
+h:DISTORTUM
+l:3D ARTIST
+r:Jozef Rolinčin
+
+r:CView Studios
+r:MANAGEMENT
+r:DIRECTOR
+r:Patrick Streppel
+
+r:PROJECT MANAGER
+r:Ralf William Alexander Schmidt
+
+r:3D PRODUCTION
+r:LEAD 3D ARTISTS
+r:Dirk Schumacher
+r:Vijay Singh
+
+r:3D ARTISTS
+r:Raman Deep
+r:Sabina Imburska Kuźniar
+r:Abhishek Singh
+r:Sapna Chauhan
+
+h:VIRTUOS GLOBAL
+l:CEO
+r:Gilles Langourieux
+l:GROUP ART DIRECTOR
+r:Darren Baines
+l:BUSINESS DEVELOPMENT
+r:Matthieu Cheynut
+r:Samantha Tran
+r:Alina Obukhovska
+
+h:SPARX* - A VIRTUOS STUDIO 
+l:GENERAL MANAGER
+r:Camille Thomas Tsang
+l:PRODUCTION MANAGER
+r:Le Thi Hoai Thuong
+l:PLANNING SPECIALIST
+r:Pham Thi Phi Yen
+l:CHARACTER ART DIRECTOR
+r:Eiad Dahnim
+l:CHARACTER PRODUCERS
+r:Vuong Nguyen Minh Thu
+r:Pham Nguyen Lap
+r:Tran Cam Tu
+l:CHARACTER TEAM LEADER
+r:Bryan Alcarde
+l:CHARACTER ARTISTS
+r:Phan Thi Linh Thao
+r:Phung Gia Bao
+r:Tran Thanh Huy
+r:Le Minh Tu
+r:Phung Thuy Nhu
+r:Ta Ngoc Nhi
+r:Nguyen Ngoc Son
+r:Nguyen Van Ninh
+r:Nguyen Ha Linh
+l:RIGGING DIRECTOR
+r:Mauricio Revuelta Cuauhtli
+l:RIGGING PRODUCER
+r:Nguyen Thien Hong An
+l:RIGGING ARTISTS
+r:Chanel Maria Novela
+r:Do Quoc Thao
+r:Ngo Ngoc Tung
+l:ANIMATION DIRECTOR
+r:Tran Le Vinh
+l:ANIMATION PRODUCERS
+r:Lungsee Soukphathai
+r:Bui Thi Yen Phuong
+l:ANIMATION TEAM LEADER
+r:Truong Hao Nguyen
+l:ANIMATORS
+r:Dang Khanh Hoan
+r:Dang Thuy Phuong Thao
+r:Le Thi Da Thao
+r:Nguyen Hoang Tam
+r:Ta Tan Dat
+r:Varoon Shivaji Indalkar
+r:Dinh Hoang Yen
+r:Le Huu Ty
+r:Le Son Trieu
+r:Ly Thi Thanh Tam
+r:Pham Hong Minh Nhut
+r:Pham Tan Thanh
+r:Pham Thanh Hau
+r:Phung Tien Dat
+l:TECHNICAL ANIMATORS
+r:Ngo Dang Khoa
+r:Nguyen Ha Bac
+l:IT TEAM
+r:Tran Minh Thanh
+r:Vo Van Thoi
+r:Le Thanh Nghi
+r:Do Hoang Minh
+r:Tran Dang Khoa
+r:Le Quang Vu
+
+h:VOLMI GAMES - A VIRTUOS STUDIO 
+l:GENERAL MANAGER
+r:Volodymyr Loban
+l:ART DIRECTOR
+r:Viktor Mukhin
+l:ART PRODUCER
+r:Andrii Lifan
+l:CONCEPT ARTISTS
+r:Oleksandr Ledovskyi
+r:Pavlo Marchuk
+l:QC
+r:Dmytro Shepeliev
+
+h:MUSIC BY DYNAMEDION
+l:CREATIVE DIRECTOR MUSIC
+r:Tilman Sillescu
+l:LEAD COMPOSER
+r:Matthias Wolf
+l:COMPOSER
+r:Alex Röder
+r:Armin Haas
+r:Henning Nugel
+
+h:BIGMOUTH AUDIO
+l:CAST
+r:Mark Desebrock
+r:Elsie Lovelock
+r:Angus Wright
+r:James Alexander
+r:Andrew Bradley
+r:Melanie Bright
+r:Alexandra Boulton
+r:JulieAnn Dean
+r:Adam Rhys Dee
+r:Sofia Jin
+r:Durassie Kiangangu
+r:Jemma Moore
+r:Jess Nesling
+r:Kate O'Sullivan
+r:David Sibley
+r:Scott Tunnix
+r:Andrew Wheildon-Dennis
+r:Andres Williams
+r:Ashley Zhangazha
+
+l:PRODUCTION COMPANY - VOICEOVER
+r:Bigmouth Elba Ltd
+
+l:PRODUCTION TEAM - VOICEOVER
+l:CASTING & VOICE DIRECTOR
+r:Donald Pirie
+
+l:RECORDING ENGINEERS
+r:Edward Sutton
+r:Mauro Serra
+
+l:AUDIO EDITORS
+r:Ellie Ford
+r:Cam Hunter
+r:Jamie Graham
+
+l:PRODUCTION MANAGER
+r:Erin Kelly
+
+l:HEAD OF AUDIO / MASTERING ENGINEER
+r:Philip Feenan
+
+h:LOCALIZATION PRODUCTION
+l:UBISOFT DÜSSELDORF
+l:SENIOR LOCALIZATION MANAGER
+r:Medina Enache
+l:LOCALIZATION PROJECT MANAGER
+r:Roberto Di Ciuccio
+l:UBISOFT ROMANIA
+l:LOCALIZATION TECHNICAL SPECIALISTS
+r:Adina Pavilcu
+r:Roxana Terbea
+l:BRAZILIAN PORTUGUESE VERSION
+l:TRANSLATION AND POST-EDITING
+r:Thales Fonseca
+r:Titânia Tef Martins
+l:REVIEW
+r:Mariana Claussen
+l:FRENCH VERSION
+l:FRENCH TRANSLATION
+r:Nicolas Fanthou
+l:FRENCH PROOFREADING
+r:Philippe Colin
+l:KEYWORDS STUDIOS FRANCE
+l:SENIOR PRODUCTION MANAGER
+r:Allan Lefeuvre
+l:AUDIO PROJECT MANAGER
+r:Anaëlle Derrien
+r:Sterenn Dornadic
+l:STUDIO & PLANNING COORDINATION
+r:Jessica Midy
+r:Benjamin Serthelon
+l:ADAPTATION
+r:Marien Marcheschi
+l:VOICE DIRECTION
+r:Stéphane Bollaert
+r:Kevin Houée
+r:Pierre Portron
+l:AUDIO TECH LEAD
+r:Jimmy Bardin
+l:RECORDING ENGINEER
+r:Roman Arroyo
+r:Tomoya Lafon
+r:Thien Toan Nguyen
+l:POST PRODUCTION
+r:Roman Arroyo
+r:Jérémie Durand
+r:Alexandre Hounounou
+r:Romain Mariama
+r:Maxime Orsini
+r:Félix Paturange
+r:Fernando Vereau
+r:Gauthier Villagordo
+l:VOICE TALENTS
+r:Arnaud Arbessier
+r:Jean Barney
+r:Laurence Breheret
+r:Rémi Caillebot
+r:Julien Chatelet
+r:Adeline Chetail
+r:Coralie Coscas
+r:Anatole De Bodinat
+r:Cédric Dumond
+r:Michel Elias
+r:Rémi Gutton
+r:Alexia Lunel
+r:Rafaèle Moutier
+r:Florine Orphelin
+r:Marie Zidi
+l:GERMAN VERSION
+l:4-REAL INTERMEDIA GMBH
+l:PROJECT MANAGEMENT
+r:Michael Buss
+r:Robert Reyl
+r:Claudia Schlicht
+l:TRANSLATION & PROOFREADING
+r:Malte Willaredt
+r:Markus Müller
+r:Melanie Koster
+r:Maxi Lange
+r:Laura Reutzel
+r:Martina Glebocki
+r:Tanja Reichard
+l:VOICE DIRECTION
+r:Tim Hennemann
+l:BOOKING
+r:Lukas Östreich
+l:AUDIO ENGINEERS
+r:Nick Doll
+r:Sebastian Hohberg
+r:Christian Maier
+r:Charlotte Mondorf
+r:Wladislaw Sadovoy
+r:Christian Will
+l:VOICE TALENTS
+r:Jean Paul Baeck
+r:Alice Bauer
+r:Sam Bauer
+r:Birte Baumgardt
+r:Tobias Brecklinghaus
+r:Alexander Duffner
+r:Lisa Dzyadyk
+r:Vincent Fallow
+r:Gerhard Fehn
+r:Patrick Giese
+r:Susanne Grawe
+r:Michael Gugel
+r:Samina König
+r:Elisabeth-Marie Leistikow
+r:Toni Michael Sattler
+r:Sabrina Schwarz
+r:Aart Veder
+r:Antje von der Ahe
+l:ITALIAN VERSION
+l:KEYWORDS STUDIOS
+l:SOLUTIONS MANAGER
+r:Davide Solbiati
+l:PRODUCTION MANAGER
+r:Allan Lefeuvre
+l:PROJECT MANAGER
+r:Adriano James Majocchi
+l:TRANSLATION AND POST-EDITING
+r:Emanuele Mattei
+r:Luciana "Svet" Perrucci
+l:REVIEW
+r:Edoardo Valsesia
+l:JAPANESE VERSION
+l:KEYWORDS STUDIOS
+l:LQA PROJECT MANAGER
+r:Victorien Bouché
+l:JAPANESE LQA LEAD TESTER
+r:Shimpei Izutsu
+l:TRANSLATION
+l:PROJECT MANAGER
+r:Bridget Tang
+l:LINGUISTS
+r:Ikue Hirata
+r:Nayuta Seki
+r:Kento Suto
+r:Yoshie Tadokoro
+r:Seitaro Nagasawa
+r:Haruka Kubo
+r:Yuka Rice
+l:UBISOFT JAPAN
+l:LOCALIZATION DIRECTOR
+r:Titus Ou
+l:SENIOR LOCALIZATION AND AGE RATING MANAGER
+r:Shunsuke Saiki
+l:KOREAN VERSION
+l:LATIS GLOBAL COMMUNICATIONS
+l:PROJECT MANAGERS
+r:Heeje Chae
+r:Yunju Cho
+l:TRANSLATION AND ADAPTATION
+r:Denise Yang
+r:Jinwook Joo
+r:Solmin Park
+r:Thomas Oh
+r:Derek Kim
+r:Don Kim
+l:UBISOFT CHENGDU
+l:QUALTY CONTROL LEAD
+r:Bai Xue
+l:TESTERS
+r:Ledley Kim
+r:Qin Xin
+l:POLISH VERSION
+l:GAMEKEEPER
+l:RUSSIAN VERSION
+l:LOGRUS IT
+l:PROJECT MANAGERS
+r:Ignatkina Elizaveta
+r:Litvinenko Anton
+l:TRANSLATION AND REVIEW
+r:Eremeev Maxim
+r:Kochetova Daria 
+r:Litvinenko Alla
+r:Lucas Christina 
+r:Melnikova Olga
+r:Pashchenko Anastasia
+r:Pigarev Alexey 
+l:SIMPLIFIED CHINESE VERSION
+l:PLAY4FUN CO., LTD.
+l:PROJECT MANAGER
+r:Shih-Chiang Hou
+l:PROJECT COORDINATOR
+r:Angel Huang
+l:TRANSLATORS
+r:Barry Wan
+r:Hody Chen
+r:Ronan Shang
+r:Wai Eng Tee
+l:UBISOFT CHENGDU
+l:TESTERS
+r:Wei Chuan Bin
+r:Wang Luo Ying
+l:UBISOFT SHANGHAI
+l:LOCALIZATION MANAGER
+r:Wang Xiao Dong
+l:SENIOR LOCALIZATION PROJECT MANAGER 
+r:Wu Li Chen
+l:DIMLIGHT STUDIO
+l:HAITIAN STUDIO
+l:SPRING MEDIA
+l:PROJECT MANAGEMENT
+r:Ming Ma
+r:Binqian Jia
+r:Yuhan Zhou
+l:TRANSLATION & PROOFREADING
+r:Soil
+r:Xiaomeng Wang
+l:VOICE DIRECTION
+r:Yujie Wang
+r:Feng Xiong
+r:Yaxin Wang
+r:Haotian Chen
+l:AUDIO ENGINEERS
+r:Guolin Ying
+r:Long Qin
+r:Gua Xi
+r:Chen Xue
+l:VOICE TALENTS
+r:Zihan Zhao
+r:Yun Gao
+r:Zhai Xiao
+r:Yifan Wang
+r:Haitian Hong
+r:Haotian Chen
+r:Ying Xie
+r:Ji Huang
+r:Bin Zhou
+r:Ziyi Qin
+r:Shengzhang Dong
+r:Xiaotong Lu
+r:Songtao Yu
+r:Liu Jing
+r:Sijun Wang
+r:Jianfeng Li
+r:Haotian Chen
+r:Guoqing Yuan
+r:Da Bai
+r:Zhengnan Song
+r:Xiaofei Zhang
+r:Jian Zhong
+r:Bin Liu
+r:Chang Sun
+r:Yaruilin Mu
+r:Xiaobing Wang
+r:Bin Zhou
+r:Lei Huang
+r:Haijia Dai
+l:SPANISH VERSION
+l:GAMELOC
+l:PROJECT MANAGERS
+r:Pedro Cortázar 
+r:Isabel de la Mota
+l:TRANSLATORS
+r:Fernando Pérez 
+r:Aitor Gómez
+l:REVIEWERS
+r:Aroa Moreno 
+r:Jessica Rodríguez
+l:TRADITIONAL CHINESE VERSION
+l:UBISOFT SINGAPORE PTE. LTD. TAIWAN BRANCH
+l:SENIOR LOCALIZATION & AGE RATING MANAGER
+r:Dabe Chang
+l:LOCALIZATION COORDINATORS
+r:Rivet Chiu
+r:Veaper Chen
+l:LOCALIZATION VENDOR
+l:PLAY4FUN CO., LTD.
+l:TRANSLATORS
+r:Chiki Chen
+r:Kinga Wang
+r:Kuang-Yu Chang
+r:Moo-Yen Tsai
+r:Shin-Yi Lin
+l:LOCALIZATION QUALITY ASSURANCE TEST LEAD
+r:Eric Lin
+l:LOCALIZATION QUALITY ASSURANCE TESTERS
+l:UBISOFT BUCHAREST LOCALIZATION QUALITY CONTROL
+l:QC LOCALIZATION TEAM LEAD
+r:Vlad-Ștefan Pomarjanschi
+l:JR. QC LOCALIZATION TEAM LEAD
+r:Gladys-Mileidy Perez Rodriguez
+l:LOCALIZATION PROJECT OWNER
+r:Adina Bratu
+r:Gladys-Mileidy Perez Rodriguez
+l:LOCALIZATION SPECIALIST (FRENCH)
+r:Alexandre Goux
+r:Anthony Casali
+l:LOCALIZATION SPECIALIST (ITALIAN)
+r:Alessandro Cubicciotti
+r:Oana Enache
+l:LOCALIZATION SPECIALIST (SPANISH)
+r:Ignacio Hermoso Bianchi
+r:Ana Díaz Bello
+l:LOCALIZATION SPECIALIST (GERMAN)
+r:Carsten Vogt
+r:Etienne Theurer
+l:LOCALIZATION SPECIALIST (POLISH)
+r:Paweł Marek Gola
+l:LOCALIZATION SPECIALIST (RUSSIAN)
+r:Tatiana Tarlev
+r:Valentina Pînzaru
+l:LOCALIZATION SPECIALIST (BRAZILIAN PORTUGUESE)
+r:Fabrício Caleffi
+r:Kevin Zanotto Balbontin
+h:FREELANCER ARTISTS
+l:ICON ARTIST
+r:Sebastian Erb
+h: STUDIO CARNOT
+l:SHOOTING STUDIO DIRECTOR
+r:Sophie Haïun 
+
+l:SHOOT MANAGER
+r:Antoine Novarese
+
+l:SHOOTING PRODUCTION COORDINATOR
+r:Laure-Anne Voisin
+
+l:MOCAP SUPERVISOR
+r:Arnaud Gielen 
+
+l:MOCAP TECHNICIANS
+r:Adrien Cayau
+r:Jean Moreno
+r:Maxime Picot
+r:Emma Toubin
+l:MOTION CAPTURE PERFORMERS
+r:Frans Boyer
+r:Alex Martin
+r:Mounia Moula
+
+l:TALENTS AGENCY 
+r:Agence Jamais Vu
+h:PSYOP
+l:DIRECTORS
+r:Todd Mueller
+r:Kylie Matulick
+r:Matthias Bauerle
+l:MANAGING DIRECTOR
+r:Jen Cadic
+l:EXECUTIVE PRODUCER
+r: Joe Maggiore
+l:HEAD OF PRODUCTION 
+r:Jamie Pastor
+r:Morgan MacCuish
+l: PRODUCER
+r:George Marks
+r:Ines Palmas
+l:HEAD OF CG 
+r:Briana Franceschini
+l:LEAD TECHNICAL DIRECTOR 
+r:Matthias Bauerle
+l:ANIM SUPERVISOR
+r:Ryan Moran
+l:2D ANIMATOR 
+r:Clint Chang
+l:CG GENERALISTS 
+r:Thomas Sali
+r:Monika Gelbmann
+r:Justus Schmidt
+r:Tobias Eckerlin
+l:DESIGNER 
+r:Samantha Ballardini
+l:MODELERS 
+r:Fynn Große-Bley
+r:Ivan Joy
+r:Aldo Solis
+l:TEXTURE ARTISTS
+r:Aldo Solis
+r:Jan Ziemann
+l:CG FX
+r:Roman Hinkel
+l:NUKE COMP 
+r:Em Mai
+r:Kevin Kim
+r:Sarah Yoo
+r:Gero Eckhardt
+l:EDITORS 
+r:Nik Kelliher
+r:Loren Christiansen
+l:STORYBOARD ARTIST 
+r:Michael Deweese
+h:WIEDEN + KENNEDY AMSTERDAM
+l:PRESIDENT
+r:Eleanor Thodey
+l:CHIEF CREATIVE OFFICER
+r:Susan Hoﬀman
+l:CHIEF STRATEGY OFFICER
+r:Nick Docherty
+l:CREATIVE DIRECTOR 
+r:Ramona Todoca
+l:CREATIVE DIRECTOR 
+r:Edouard Olhagaray
+l:SENIOR ART DIRECTOR 
+r:Güney Soykan
+l:ART DIRECTOR 
+r:Juliana Miguéis
+l:COPYWRITER 
+r:Aditya Hariharan
+l:LEAD MOTION DESIGNER 
+r:Sohyeon Nam
+l:DESIGNER 
+r:Lewis Beedham
+l:PRODUCER 
+r:Caroline Hagoort
+l:PLANNING DIRECTOR 
+r:Odile Song
+l:PLANNER 
+r:Audrey Bühler
+l:SENIOR COMMS PLANNER 
+r:Cristelle Fornesi
+l:COMMS PLANNER 
+r:Hayeon Kim
+l:GROUP ACCOUNT DIRECTOR 
+r:Group Account Director: Andrea Aangeenbrug
+l:GROUP ACCOUNT DIRECTOR 
+r:Group Account Director: Franky Wardell
+l:ACCOUNT DIRECTOR 
+r:Account Director: Tiphaine Murat
+l:ACCOUNT MANAGER 
+r:Account Manager: Allie Bottinelli
+l:HEAD OF BUSINESS AFFAIRS 
+r:Head of Business Affairs: Michael Graves
+l:HEAD OF PRODUCTION
+r:Jaime Tan
+l:HEAD OF COMMS PLANNING
+r:Elsa Stahura
+l:COMMS DIRECTOR
+r:Anna Chan
+l:SENIOR DESIGN MANAGER
+r:Joe Favre
+l:DESIGNER 
+r:Shen Hou
+
+h:WOLFF OLINS
+l:GLOBAL PRINCIPLE
+r:Tom Wason
+r:Wayne Deakin
+l:CREATIVE DIRECTOR 
+r:Andy Khatouli 
+l:ASSOCIATE CREATIVE DIRECTOR 
+r:Joe Waterfield
+l:DESIGNER 
+r:Jamilya Kulambayeva
+l:ENGAGEMENT DIRECTOR 
+r:Flora Gouin
+l:ENGAGEMENT MANAGER
+r:Rebecca Wood
+l:ENGAGEMENT MANAGER
+r:Roxanne Gonzales
+l:DESIGN SPECIALIST DIRECTOR
+r:Franc Falco
+l:STRATEGY DIRECTOR
+r:Kate Harris
+l:SENIOR STRATEGIST
+r:Gaultier Ajarrista
+l:MARKETING DIRECTOR
+r:Kellie Carey
+l:SENIOR MARKETING MANAGER
+r:Becca Peppiatt
+l:MARKETING MANAGER
+r:Carolyn McKeown
+l:SENIOR MARKETING EXECUTIVE
+r:Georgia Hamberger
+
+l:SPECIAL THANKS
+r:Charlotte St-Onge
+r:Daniel Rivas
+r:Éric Dumas
+r:Gaylor Sotelo
+r:Gil Robern
+r:Jérémie Pudlowski
+r:Marc-André Burcikas
+r:Marie Roman
+r:Marie Roy
+r:Marie-Pierre Deschênes
+r:Pascal Augustin
+r:Quentin Mulliez
+r:Yu Chen
+h:UBISOFT MAINZ OPERATIONS
+l:STUDIO MANAGEMENT
+r:Thomas Pottkämper
+l:SENIOR COMMUNICATIONS MANAGER
+r:Bastian Thun
+l:HUMAN RESOURCES
+l:STUDIO HR MANAGER
+r:Katharina Noll
+l:JR. HR GENERALIST
+r:Melinda Jänsch
+l:ZONE TALENT ACQUISITION MANAGER
+r:Karolina Böhm
+l:IT DEPARTMENT
+l:LOCAL IT MANAGER
+r:Daniel Schaalo
+l:LOCAL IT TECHNICIAN
+r:Nils Hansen
+l:IT PROJECT MANAGER
+r:Frank Schurad
+l:WORKPLACE
+l:WORKPLACE MANAGER
+r:Gabriele Koch
+r:Janine Maniyar
+r:Workplace Specialist
+r:Jeanine Eckhardt
+r:Edgar Lipp
+l:CREDITS VIDEO CALL
+l:CREATIVE DIRECTOR
+r:Dirk Riegert 
+l:ART DIRECTOR
+r:Sebastian Steinberg 
+l:ANIMATOR
+r:Dorothee Dittrich 
+l:3D ARTIST
+r:Paula Mühl 
+l:AUDIO DIRECTOR
+r:Sebastian Sonntag
+h:GERMAN STUDIO NETWORK
+
+l:WORKPLACE & PROPERTY DIRECTOR
+r:Alexander Danisch
+
+l:PROPERTY MANAGERS
+r:Peter Haesner
+r:Stephan Teschke
+
+l:RECEPTIONISTS
+r:Kian Vanhoudt
+r:Martine Hammerschmidt
+r:Melissa Doyduk
+
+l:WORKPLACE MANAGERS
+r:Olena Zubko
+r:Tanja Martens
+
+l:WORKPLACE SPECIALISTS
+r:Bianca Antonatus
+r:Frank Straesser
+
+l:COMMUNICATIONS MANAGERS
+r:Stefan Böhne
+r:Sarah Hübner
+r:David Meuter
+
+l:HUMAN RESOURCES DIRECTOR
+r:Stefanie Egbers
+
+l:STUDIO HR MANAGERS
+r:Wiebke Hagenow
+r:Carolin Giesen
+
+l:HR BUSINESS PARTNER
+r:Andreea Mailat
+r:Yvonne Hoff
+r:Hannah Zingler-Reinartz
+
+l:SENIOR HR BUSINESS PARTNER
+r:Eva Fleer
+
+l:JUNIOR HR GENERALIST
+r:Melinda Jaensch
+
+l:HR GENERALIST
+r:Michelle Heinz
+r:Daljeet Kaur
+
+l:SENIOR HR GENERALIST
+r:Matthias Schulte
+
+l:HR SPECIALIST
+r:Robin Adam
+
+l:PUBLIC AFFAIRS DIRECTOR GERMANY
+r:Karsten Lehmann
+
+l:PUBLIC AFFAIRS ADVISOR
+r:Nicole Lorenz
+
+l:PUBLIC AFFAIRS SPECIALIST
+r:Katharina Bochnig
+r:Thomas Pfeiffer
+
+l:CSR & DIVERSITY MANAGER
+r:Dorian Auer
+
+l:IT ADMIN/TECHNICIAN
+r:Adam Kennedy
+
+l:IT MANAGER - LOCAL IT DÜSSELDORF
+r:Heinrich Beckmann
+
+l:IT MANAGER - LOCAL IT MAINZ
+
+l:IT REGIONAL MANAGER
+r:Denise Degelmann
+
+l:IT SITE MANAGER
+r:Bruce Revsin
+
+l:LOCAL IT TECHNICIANS
+r:Bruno Stergar
+r:Clare-Ann Bourke
+r:Daniel Krumm
+r:Luke Woodham
+r:Sebastian Olbrich
+
+l:STORAGE & BACK-UP ADMINISTRATOR
+r:Maximilian Melke
+
+l:HEAD OF CONTROLLING & REPORTING
+r:Martin Middel
+
+l:TEAM LEAD ACCOUNTING
+r:Michaela Leo
+
+l:FINANCIAL ACCOUNTANT
+r:Linh Thu Pham
+r:Wolfgang Rott
+
+l:ACCOUNTANT
+r:Elena Kaduk
+r:Elisa Ehme
+r:Sabine Strangfeld
+r:Sandra Laurich
+
+l:BUSINESS DEVELOPMENT MANAGER
+r:Kay Bennemann
+
+l:FINANCIAL CONTROLLERS
+r:Stephan Lampen
+r:Gilbert Fullwood
+
+l:HEAD OF PMO
+r:Yuro Olivier
+
+l:PROJECT COORDINATOR
+r:Achim Haaz
+
+l:PROJECT MANAGER
+r:Zi (Amy) Li
+
+l:FINANCE & ADMINISTRATION DIRECTOR
+r:Olha Lysach
+
+l:SENIOR FINANCE PLANNING ANALYST
+r:Kyrylo Sulim
+
+l:FINANCE PLANNING ANALYST
+r:Olesia Andreieva
+
+l:PROCUREMENT SPECIALIST
+r:Kateryna Huryna
+
+l:CHIEF ACCOUNTANT
+r:Roman Yatskanych
+
+l:SENIOR ACCOUNTANT
+r:Nataliia Rudyk
+
+l:PAYROLL ACCOUNTANT
+r:Payroll Accountant
+
+l:INTERN ACCOUNTANT
+r:Dmytro Mazuryk
+
+l:STUDIO MANAGER
+r:Jeff Combos
+r:Derek Patterson
+
+l:MANAGING DIRECTOR
+r:Olga Sendziuk
+
+l:PRODUCTION ZONE
+
+l:ZONE COMMUNICATIONS DIRECTOR
+r:Alexander John
+
+l:ZONE FINANCE DIRECTOR
+r:Agostino Damiano
+
+l:ZONE FINANCIAL PLANNING MANAGER
+r:Giorgio Duso
+r:Ben Carman
+
+l:FINANCIAL & PRODUCTION ANALYST
+r:Connor Henry
+
+l:ZONE FINANCE MANAGER
+r:Maija Lindberg
+
+l:BUYER
+r:Lisa Joachim
+r:Luana Dias De Moura
+
+l:PURCHASING OPERATIONS SPECIALIST
+r:Ebru Cakir
+r:Elmira Steger
+
+l:SERVICE MANAGEMENT COORDINATOR
+r:Zuzana Sejrkova
+
+l:ZONE HR DIRECTOR
+r:Verena Hoffman
+
+l:ZONE TALENT MANAGEMENT MANAGER
+r:Suzana Rakonjac
+
+l:SENIOR COMMUNICATIONS & CSR SPECIALIST
+r:Srdjan Obrenovic
+
+l:HEAD OF TALENT MANAGEMENT
+r:Nadine Krueger
+
+l:SENIOR TALENT DEVELOPMENT SPECIALIST
+r:Jenny Rieger
+r:Dominik Faber
+
+l:TALENT DEVELOPMENT SPECIALIST
+r:Jonas Rosati
+
+l:LEARNING AND DEVELOPMENT MANAGER
+r:Adam Willingham
+
+l:SENIOR LEARNING AND DEVELOPMENT SPECIALIST
+r:Sarah Morgan-Peshavaria
+
+l:COMPENSATION, BENEFITS AND PAYROLL SPECIALIST
+r:Bojana Velickovic
+
+l:JUNIOR HR BUSINESS PARTNER
+r:Milica Obradovic
+
+l:SENIOR LEARNING & DEVELOPMENT SPECIALIST
+r:Dmytro Popovichenko
+
+l:BENEFITS DIRECTOR
+r:Margaret Cervo
+
+l:TOTAL REWARDS & HR OPS MANAGER
+r:Lesya Khilchevska
+
+l:HR GOVERNANCE MANAGER
+r:Remigius Parij
+
+l:COMPENSATIONS & BENEFITS MANAGER
+r:Lua Amancio
+
+r:ZONE TALENT ACQUISITION MANAGER
+r:Karolina Boehm
+
+l:RECRUITMENT COORDINATOR
+r:Marie Millier
+
+l:RECRUITMENT SPECIALIST
+r:Andrea Pavlovic
+
+l:RECRUITER
+r:Larissa Frank
+r:Anastasiia Korolchuk
+
+l:SENIOR RECRUITER
+r:Alexander Rausch
+
+l:TALENT ACQUISITION COORDINATOR
+r:Fedir Manchenko
+
+l:TALENT ACQUISITION SPECIALIST
+r:Yevhenii Sukhonos
+r:Luke Murtagh
+
+l:CHIEF OF STAFF
+r:Philipp Böckmann
+
+l:ZONE CHANGE MANAGER
+r:Kala Preston
+
+l:ZONE PROJECT MANAGER
+r:Agne Ondruska
+
+l:ZONE MANAGING DIRECTOR
+r:Benedikt Grindel
+
+l:EXECUTIVE ASSISTANT
+r:Stephanie McBryne
+h:UBISOFT INTERNATIONAL
+l:PRESIDENT AND CEO
+r:Yves Guillemot
+
+l:CHIEF PRODUCTION OFFICER 
+r:Martin Schelling
+
+l:CHIEF STUDIOS AND PORTFOLIO OFFICER 
+r:Marie-Sophie de Waubert
+
+
+
+
+l:VP PRODUCT AND PORTFOLIO STRATEGY
+r:Julien Cuny
+
+l:PROJECT COORDINATION
+
+l:VP PRODUCTION
+r:Jean-Baptiste Duval
+
+l:SENIOR HQ PRODUCERS
+r:Angélique Girard
+
+l:HQ PRODUCERS
+r:Alexia Nisol
+r:Attilio Boronine
+
+l:EDITORIAL
+
+l:VP EDITORIAL
+r:Florian Mussard
+
+l:CONTENT DIRECTORS
+r:Rafaël Lopes
+
+l:SENIOR LINE DESIGNERS
+r:Benoit Croenne
+r:Rémi Leblanc
+l:SPECIAL THANKS
+"r:Bio Jade Adam Granger
+Benoit Frenette
+Ivan Zucchelli
+Alexis Le Goff"
+
+l:PRODUCTION TECHNOLOGY
+
+l:SVP PRODUCTION TECHNOLOGY
+r:Guillemette Picard
+
+l:GLOBAL DEPUTY VP PRODUCTION TECHNOLOGY
+r:Nicolas Rioux
+
+l:TECH OFFICE DIRECTOR
+r:Lionel Bouchet
+
+l:CHIEF OF STAFF, TECH OFFICE
+r:Sandrine Maigret
+
+l:TECH OFFICE PROJECT COORDINATOR
+r:Juliette Lemaitre
+
+l:RELEASE MANAGEMENT
+
+l:RELEASE MANAGEMENT & LOCALIZATION DIRECTOR
+r:Corentin François
+
+l:RELEASE MANAGEMENT, EMEA
+l:SENIOR MANAGER, RELEASE MANAGEMENT EMEA
+r:Anis Boujaouane
+
+l:AGE RATING MANAGER
+r:Charlotte-Patricia Labeau
+
+l:SENIOR RELEASE MANAGER
+r:Camille Roque
+
+l:RELEASE MANAGER
+r:Bruno Gaugain
+r:Loic Wilquin
+r:Pierre Davy
+
+l:RELEASE SPECIALIST
+r:Antoine Aboulkheir
+r:Lucas Zietek
+
+l:RELEASE MANAGEMENT, NCSA
+l:SENIOR MANAGER, RELEASE MANAGEMENT NCSA
+r:Dominick Echiverri
+
+l:AGE RATING MANAGER
+r:Andres Chirino
+
+l:SENIOR RELEASE MANAGER
+r:Ashley Beckman (Colombo)
+r:Jin Seung Lee
+
+l:RELEASE MANAGER
+r:Isaac Beckman
+r:Taylor Chavez
+
+l:RELEASE SPECIALIST
+r:Allister Cabebe
+
+l:RELEASE MANAGEMENT, ASIA
+l:MANAGER, RELEASE MANAGEMENT ASIA
+r:Guillermo Araque
+
+l:RELEASE MANAGER
+r:Mika Hara – 原 美香
+r:Takashi Fujigaki – 藤垣 貴志
+
+l:BRAND PORTFOLIO MANAGEMENT
+l:PORTFOLIO
+l:VP PORTFOLIO
+r:Jérôme Reine
+
+l:BRAND
+l:VP GLOBAL BRAND STRATEGY
+r:Etienne Allonier
+
+l:GLOBAL STRATEGIC INSIGHTS
+l:VP GSI
+r:Emilie Garin
+
+l:GSI DIRECTORS
+r:Louis Beaussillon
+
+l:GSI MANAGERS
+r:Lisa Bally
+
+l:GSI SENIOR ANALYSTS
+r:Jade Duquenne
+r:Patrick Kong A Siou
+
+
+
+l:GSI HUMANITIES & INSPIRATION
+l:SENIOR MANAGER, INSPIRATIONAL CONTENT
+r:Thierry Noël
+
+l:INSPIRATIONAL CONTENT ADVISORS
+r:Eve Ben-Haïm
+r:Thomas Guindeuil
+
+l:LIVE REVENUES STRATEGY 
+l:VP, BUSINESS STRATEGY & LIVE PERFORMANCE
+r:Maxime Revol
+
+l:BUSINESS STRATEGY & LIVE PERFORMANCE DIRECTOR
+r:Vivien Cauhepe
+
+l:SENIOR LIVE REVENUES ANALYST
+r:Dylan Semionoff Bru
+l:FINANCIAL PLANNING
+
+l:PRODUCTION FINANCIAL PLANNING SENIOR DIRECTOR
+r:Claire Boussemart
+
+l:ASSOCIATE DIRECTOR PRODUCTION FINANCIAL PLANNING
+r:Séverine Laithier
+
+l:FINANCIAL PLANNING MANAGER
+r:Jérémie Roussay
+
+l:FINANCIAL PLANNING SENIOR ANALYST
+r:Morgan Grimault
+
+l:JUNIOR FINANCIAL PLANNING ANALYST
+r:Ines Laribi
+
+l:GLOBAL WORKFORCE PLANNING
+l:GLOBAL WORKFORCE PLANNING SENIOR DIRECTOR
+r:Johanne Grange
+
+l:GLOBAL WORKFORCE PLANNING MANAGER
+r:Bénédicte Laborie
+
+l:WW QC
+l:VP QC/QA
+r:Pierre Jouen
+
+l:WW QC OPERATIONS DIRECTOR
+r:Mathieu Turle
+
+l:WW QC OPERATIONS ASSOCIATE DIRECTOR
+r:Jules Champy
+
+l:WW QC PROCESS ANALYST
+r:Pierre-Luc Néron
+
+l:LEGAL COUNSEL
+
+l:CHIEF LEGAL OFFICER
+r:Christele Jalady
+
+l:VP, DEPUTY CHIEF LEGAL OFFICER
+r:Virginie Gringarten
+
+l:VP, HEAD OF TRADEMARK & IP
+r:Marc Muraccini
+
+l:CONTRACT DIRECTOR
+r:Jean-Baptiste Morguet
+
+l:CONTRACT MANAGER
+r:Christophe Ziatyk
+r:Arnaud Le Thuaut
+
+l:DIRECTOR, LEGAL, MUSIC
+r:Florent Boisneault
+
+l:SENIOR LEGAL COUNSEL
+r:Baptiste Boussac
+r:Patricia Kouto
+r:Mikolaj Skowronek
+
+l:LEGAL COUNSEL
+r:Claire Gimenes
+r:Chiara Turzi
+
+l:JUNIOR LEGAL COUNSEL
+r:Eve Leleu
+r:Dorian Souquet
+
+l:PROCUREMENT TEAM
+
+l:GROUP PROCUREMENT SENIOR DIRECTOR
+r:Franz Pinto
+
+l:HQ PROCUREMENT DIRECTOR
+r:Frederic Hamelin
+
+l:PROCUREMENT STRATEGY DIRECTOR
+r:Laurent Lugbull
+
+l:CATEGORY MANAGER
+r:Vincent Greco
+r:Julian Castano
+
+l:PROCUREMENT MANAGER MARKETING & PROD
+r:Arthur Faure
+
+l:BUYER
+r:Juliette Pierre
+
+l:BUYER ASSISTANT
+r:Rémi Benoit
+
+l:NEW BUSINESS TEAM
+
+l:VP NEW BUSINESS
+r:Deborah Papiernik
+
+l:BUSINESS DEVELOPMENT DIRECTOR
+r:Jérôme Ponset
+
+l:PROJECT MANAGER ASSISTANT
+r:Philippe Borja
+
+l:CORPORATE AFFAIRS
+
+l:SVP CORPORATE AFFAIRS
+r:Sabine Hamelin
+
+l:VP CORPORATE AFFAIRS
+r:Francis Baillet
+r:Emmanuel Martin
+
+l:UBISOFT MUSIC
+
+l:HEAD OF MUSIC
+r:Alkis Argyriadis
+
+l:MUSIC SUPERVISORS
+r:Simon Landry
+r:Manu Bachet
+r:Bénédicte Ouimet
+r:Justin Roy
+
+l:BUSINESS DIRECTOR
+r:Wladimir Pandolfo
+
+l:OPERATIONS MANAGER
+r:Laurie Hazan
+
+l:MARKETING MANAGER
+r:Julia Gaillardot - Chourgnoz
+
+l:MARKETING CORDINATOR
+r:Maha Kamal Gin
+
+l:ADMINISTRATIVE COORDINATOR
+r:Melody Ale Alayo
+
+l:WW LICENSING
+
+l:VP, WW LICENSING
+r:Christian Salomon
+
+l:SR DIRECTOR, GLOBAL EDITORIAL LICENSING
+r:Gregoire Gabalda
+
+l:MANAGER, GLOBAL EDITORIAL LICENSING, BUSINESS DEVELOPMENT
+r:Matt Marcheschi
+
+l:SR DIRECTOR, WW LICENSING, BUSINESS DEVELOPMENT
+r:François Denoeux
+
+l:MANAGER, WW LICENSING, BUSINESS DEVELOPMENT
+r:Mathilde Zammit
+
+l:SPECIALIST, WW LICENSING, BUSINESS DEVELOPMENT
+r:Alexandra Ferreol
+
+l:DIRECTOR, GLOBAL ARTIST & TALENT PARTNERSHIPS, BUSINESS DEVELOPMENT
+r:Naouel Mered
+
+l:MANAGER, GLOBAL ARTIST & TALENT PARTNERSHIPS, BUSINESS DEVELOPMENT
+r:Emilie Sissoko
+
+l:AND ALSO, SPECIAL THANKS TO :
+
+l:HQ HR TEAMS
+r:Olivia Campo & HQ HR Teams
+
+l:PRODUCTION INTELLIGENCE
+r:Hugues Ricour & the UDO Production Intelligence team
+
+l:PRODUCTION COMMUNITIES & KNOWLEDGE MANAGEMENT
+r:Marc Bramoulle & his teams
+
+l:DIVERSITY, INCLUSION, ACCESSIBILITY, AND SOCIAL IMPACT
+r:Raashi Sikka & her teams
+h:WW GLOBAL PUBLISHING
+r:TOP MANAGEMENT
+l:CHIEF PUBLISHING OFFICER
+r:Alain Corre
+
+l:SVP, CORPORATE PARTNERSHIPS
+r:Chris Early
+
+l:SVP, MARKETING SERVICES, MEDIA & PLAYER EXPERIENCE
+r:John Parkes
+
+l:SVP, SALES
+r:Sabine Berthier
+
+l:SVP, FINANCE, ANALYTICS & OPERATIONS
+r:Loic Amans
+
+l:SVP, EXECUTIVE PUBLISHING
+r:Tony Key
+
+l:SVP, D2P
+r:Olivier Ernst
+
+l:EXECUTIVE PUBLISHING
+l:VP, EXECUTIVE PUBLISHER
+r:Lionel Hiller 
+
+l:SENIOR GLOBAL BRAND MANAGER 
+r:John Tabor 
+
+l:DIRECTOR GLOBAL BRAND
+r:Mayya Grinberg
+
+l:GLOBAL BRAND MANAGER 
+r:Marie Gomanne
+
+l:ASSOCIATE BRAND MANAGER
+r:Chloe Boudin
+
+l:GLOBAL BRAND PROJECT MANAGER 
+r:Em Laferriere 
+
+l:GLOBAL BRAND OPERATIONS
+l:SENIOR DIRECTOR, GLOBAL BRAND OPERATIONS
+r:Ann Hamilton
+
+l:DIRECTOR, GLOBAL BRAND OPERATIONS
+r:Bailey Gutierrez
+
+l:GLOBAL BRAND OPERATIONS MANAGER
+r:Karolina Majer
+
+l:SENIOR MANAGER - GLOBAL BRAND CREATIVE OPERATIONS
+r:Katherine Bamford
+
+l:MANAGER, GLOBAL BRAND PROJECT MANAGER
+r:Pam Carey
+
+l:TOOLS AND PROCESS SENIOR MANAGER
+r:Khaled Tadil
+
+l:SENIOR GLOBAL BRAND OPERATIONS MANAGER
+r:Flora Fitting
+
+l:MANAGER, GLOBAL LOCALIZATION STRATEGY & OPTIMIZATION
+r:Nathanaël Hélin
+
+l:LOCALIZATION STRATEGY SPECIALIST
+r:Arnault Le Maistre
+
+l:CREATIVE OPERATIONS
+l:DIRECTOR,CREATIVE OPERATIONS
+r:Laurent Gaudy
+
+l:GROUP MANAGER, PRODUCTION & COMPLIANCE
+r:Cecile Abbassidi
+
+l:SENIOR MANAGER, DESIGN & VIDEO 
+r:Nick Arnett
+
+l:GRAPHIC DESIGNER
+r:Kris Santiago
+r:Ghazi Gharbi
+
+l:SENIOR MOTION GRAPHICS ARTIST
+r:Roxee Zinsser
+
+l:MOTION GRAPHICS ARTIST
+r:Robby See
+r:Paolo Ang
+
+l:GRAPHIC PRODUCTION ARTIST
+r:Nio Infante
+r:Ben Antonio
+r:Geno Cereno
+r:Kelly Gallardo
+
+l:SENIOR MANAGER, STUDIO, PREPRESS & QUALITY
+r:Axel Robert
+
+l:PREPRESS & QUALITY MANAGER
+r:Vincent Guille
+
+l:MANAGER, COPY EDITING & COMPLIANCE
+r:Ian Golder
+
+l:SENIOR COPY EDITOR & COMPLIANCE
+r:Heather Golder
+
+l:COPY EDITOR
+r:Christina Cha
+r:Anna Dang
+
+l:GROUP MANAGER, PROJECT  MANAGEMENT
+r:Vincent Hamet
+
+l:SR. PROJECT MANAGER
+r:Grace Louie
+r:Blandine Viegas
+
+l:PROJECT MANAGER
+r:Thomas Allouane
+r:Patrick Collins
+r:Pierre Manéo
+r:Kelly Weaver
+
+l:MANAGER, GP LOCALIZATION
+r:Maïté Lerebours
+
+l:LOCALIZATION PROJECT MANAGER
+r:Juliette Dijoux
+r:Brooke Storey
+r:Karina López García
+
+l:LOCALIZATION PROJECT MANAGER
+r:Mohamed Maalem
+
+l:ESPORTS & COMPETITIVE GAMING
+l:VP, ESPORTS & COMPETITIVE GAMING
+r:Francois-Xavier Deniele
+
+l:ASSOC DIRECTOR, ESPORTS NA
+r:James Shilkret
+
+l:SENIOR DIRECTOR COMPETITIVE PRODUCT
+r:Sebastien Ratto 
+
+l:ASSOCIATE BRAND MANAGER, ESPORTS NA
+r:Josh Ashmore
+
+l:ESPORTS SENIOR PRODUCT MANAGER, NA
+r:Trey Fiebich
+
+l:ASSOCIATE DIRECTOR, ESPORTS, EMEA
+r:Christoph Thann
+
+l:ASSOCIATE ESPORTS PRODUCT MANAGER, EU
+r:Maxime Ferry
+
+l:ESPORTS PRODUCT MANAGER, APAC
+r:Lucas Thoolen
+
+l:ESPORTS REGIONAL SENIOR BRAND MANAGER, APAC
+r:Brandon Langiano
+
+l:ASSOCIATE DIRECTOR, LATAM
+r:Leandro Estevam
+
+l:ESPORTS PROJECT MANAGER, BRAZIL
+r:Gabriel Cassel
+
+l:ESPORTS REGIONAL BRAND MANAGER LATAM
+r:Lucas Reis
+
+l:ESPORTS PRODUCT MANAGER, HISPANIC LATAM
+r:Alvaro Irurita
+
+l:ASSOCIATE DIRECTOR, ESPORTS OPERATIONS
+r:Emeline Berthon
+
+l:ESPORTS GLOBAL COMMUNITY ENGAGEMENT MANAGER
+r:Pylyp Zhunior
+
+l:DIRECTOR, GLOBAL ESPORTS MARKETING & BI
+r:Marcio Canosa Soares
+
+l:ESPORTS GLOBAL MARKETING ARTIST
+r:Raphael Trinel
+
+l:ASSOCIATE DIRECTOR, ESPORTS LIVE EVENTS & BROADCAST
+r:Nelson Garcia
+
+l:BROADCAST EXPERIENCE MANAGER
+r:Bertrand de Swarte
+
+l:SAO PAULO BROADCAST MANAGER
+r:Wesley Elago
+
+l:ESPORTS GLOBAL EVENTS MANAGER
+r:Clementine Renard
+
+l:CORPORATE PARTNERSHIPS
+l:VP, PARTNERSHIPS & CONSUMER PRODUCTS
+r:Francois Tallec
+
+l:SENIOR DIRECTOR, TECH PARTNERSHIPS & BUSINESS DEVELOPMENT
+r:Samuel Naccache
+
+l:OEM, ASSOCIATE DIRECTOR
+r:Rose-Marie Nargaud
+
+l:BUSINESS DEVELOPMENT MANAGER
+r:Grégoire Nicolle
+
+l:DIRECTOR, CONSUMER PRODUCTS
+r:Michelle Wun
+
+l:CONSUMER PRODUCTS, SENIOR MANAGER
+r:Shen Min
+
+l:CONSUMER PRODUCTS, MANAGER
+r:Barbara Laurindo
+
+l:CONSUMER PRODUCTS, SPECIALIST
+r:Alissa Perrin
+
+l: DIRECTOR MARKETING BUSINESS OPERATIONS
+r:Jérôme Lambert
+
+l:SR CREATIVE DIRECTOR
+r:Jean Gauvin
+
+l:SENIOR BUSINESS DEVELOPMENT MARKETING MANAGER 
+r:Carole Weissenbacher 
+
+l:SENIOR PARTNERSHIPS MANAGER
+r:Cédric Villain
+
+l:CREATIVE OPERATIONS MANAGER
+r:Carlos Reyes
+
+l:ASSOCIATE PROGRAM MANAGER 
+r:Laura Prédeval
+
+l:DIRECTOR, GLOBAL BRAND PARTNERSHIPS & BUSINESS DEVELOPMENT
+r:Vincent Coudert
+
+l:SENIOR DIRECTOR, ADVERTISING TECH
+r:Arisa Lagunzad
+
+l:ASSO DIRECTOR GLOBAL ESPORTS BUSINESS DEVELOPMENT
+r:David Parent
+
+l:GLOBAL BRAND PARTNERSHIPS, DIRECTOR
+r:Bruna Soares
+
+l:BRAND PARTNERSHIPS, MANAGER
+r:Anelise Soares
+r:François-Xavier Lecompte
+r:Paige Bonomi
+
+l:DIRECTOR, STRATEGIC PARTNER INTEGRATION & BUSINESS DEVELOPMENT
+r:Sergio Dos Santos
+
+l:SENIOR PROGRAM MANAGER, STRATEGIC PARTNER INTEGRATION
+r:Josephine Moreira
+
+l:PROGRAM MANAGER, STRATEGIC PARTNER INTEGRATION
+r:Olivier Hudon
+
+l:ASSOCIATE DIRECTOR, STRATEGIC PARTNERSHIPS
+r:Scott Causey
+
+l:COMMUNICATIONS
+l:VP, COMMUNICATIONS
+r:Tim Cummins
+
+l:SENIOR DIRECTOR, COMMUNICATIONS
+r:Chad Acers
+
+l:ASSOCIATE DIRECTOR, COMMUNICATIONS
+r:Maïté Hayet
+
+l:SENIOR COMMUNICATIONS MANAGER
+r:Jérémy Louis
+
+l:COMMUNICATIONS ASSISTANT
+r:Sibylle Cifarelli
+r:Jules Rodde
+
+l:SR. PROGRAM MANAGER
+r:Alex Clayton
+
+l:UBISOFT NEWS
+l:DIRECTOR, EDITORIAL COMMUNICATIONS
+r:Lucy O'Brien
+
+l:MANAGER, EDITORIAL COMMUNICATIONS
+r:Youssef Garcia-Maguid
+
+l:SR. EDITORIAL COMMUNICATIONS MANAGER
+r:Chris Watters
+
+l:EDITORIAL COMMUNICATIONS MANAGER
+r:Chastity Vicencio
+
+l:CREATIVE WRITER 
+r:Brittany Spurlin
+
+l:SR. MANAGER, VIDEO PRODUCTION
+r:Andy Bauman
+
+l:SR. VIDEO PRODUCER
+r:Anthony Snyder
+
+l:VIDEO PRODUCER
+r:Emily Bright
+
+l:EVENTS
+l:DIRECTOR, EVENTS
+r:Calvin Kwan
+
+l:MANAGER, EVENTS
+l:CAMILLE FAVIER-BROLLY
+
+l:EVENTS SPECIALIST
+r:Mackenzie Armstrong
+r: Carly Habib
+
+l:AUDIENCE, MEDIA & CHANNELS
+l:VP, AUDIENCE, MEDIA & CHANNELS, GLOBAL PUBLISHING
+r:Stephane Catherine
+
+l:MEDIA
+l:SENIOR DIRECTOR, GLOBAL MEDIA
+r:Clement Prevosto
+
+l:ASSOCIATE DIRECTOR, GLOBAL MEDIA PLANNING
+r:Stephanie Chiu
+r:Sarah Cantin
+
+l:SENIOR MEDIA PLANNER, GLOBAL MEDIA
+r:Anna Ivanko
+
+l:MEDIA PLANNER, GLOBAL MEDIA
+r:Sarah Koplin
+
+l:MANAGER, EUROPE & APAC MEDIA
+r:Sylvain Lecomte
+
+l:SENIOR MEDIA PLANNER, US MEDIA
+r:Taryn Benner
+
+l:MEDIA PLANNER, REGIONAL MEDIA
+r:Emilie Ouba
+
+l:ASSOCIATE DIRECTOR, CHANNEL MANAGEMENT & OPERATIONS
+r:Adrien Loquet
+
+l:MANAGER, BRANDING 
+r:Negar Rahimipour
+
+l:CHANNEL MANAGER BRANDING
+r:Jacques François
+r:Juliette Brerat-Robic
+
+l:DATA OPERATIONS MANAGER
+r:Nicolas Ferry
+
+l:CONTENT CREATORS
+l:SR. DIRECTOR, CONTENT CREATORS
+r:Ben Swanson
+
+l:DIRECTOR, GLOBAL CREATOR STRATEGY
+r:Zohra Deniele-Hamiche
+
+l:ASSOCIATE DIRECTOR, CREATOR CAMPAIGNS
+r:Jenny Urbano
+
+l: SR MANAGER, CREATOR STRATEGY
+r:Audrey Caron
+
+l:SENIOR CREATOR STRATEGY MANAGER
+r:Jonathan Bendel
+
+l:SENIOR CREATOR PLATFORM MANAGER
+r:Christopher Huston
+
+l:CREATOR PLATFORM MANAGER
+r:Oliwia Chrzanowska
+
+l:CREATOR PLATFORM MANAGER
+r:Maël Seban
+
+l:DIRECTOR, CREATOR OPERATIONS, TECHNOLOGY & DATA
+r:Audrey Couyras
+
+l:CONTENT CREATORS OPERATIONS PROJECT MANAGER
+r:Jean-Louis Ballart
+
+l:SR. MANAGER CREATOR ANALYTICS & INSIGHTS
+r:Thomas Li
+
+l:DATA  OPS MANAGER
+r:Feiyu Guo
+
+l:SOCIAL MEDIA & BRAND CONTENT
+l:DIRECTOR, SOCIAL MEDIA MANAGEMENT
+r:Brittney Reignier
+
+l:ASSOCIATE DIRECTOR, SOCIAL MEDIA MANAGEMENT
+r:Tatiana Fausey
+
+l:SENIOR SOCIAL MEDIA MANAGER
+r:Ben Talbot
+
+l:ASSOCIATE SOCIAL MEDIA MANAGER
+r:Micky Baeza
+r:Heloise Nobrega
+r:Paola Firringeri
+r:Benjamin Neil
+
+l:GAME INTELLIGENCE ANALYST
+r:Mayuran Suntharalingam
+
+l:ASSOCIATE DIRECTOR, SOCIAL MEDIA PUBLISHING
+r:Alexis Van De Kerkhove
+
+l:MANAGER, SOCIAL MEDIA PUBLISHING
+r:Tahirah Mirza
+
+l:SOCIAL MEDIA PUBLISHING COORDINATOR
+r:Randall Corners
+r:Antoine Rossi
+
+l:MANAGER, SOCIAL MEDIA PUBLISHING STRATEGY
+r:Sharmili Singham
+
+l:SOCIAL MEDIA PUBLISHER, PROCESS AND TOOLS
+r:Thomas Chaignaud
+
+l:CRM
+l:ASSOCIATE DIRECTOR, CRM GAME STRATEGY
+r:Valentin Pasquier-Desvignes
+
+l:MANAGER, CRM DIRECT-TO-PLAYER STRATEGY
+r:Valerio Forliano
+
+l:CRM STRATEGY SPECIALIST
+r:Arthur Chamaillard
+r:Gauthier Vollet
+
+l:DIRECTOR, CRM OPERATIONS & TECHNOLOGY
+r:Anne-Sophie Gourlay
+
+l:SR. MANAGER, CRM OPERATIONS
+r:Yinqiu Wu
+
+l:MANAGER, CRM OPERATIONS
+r:Samia Yakhou
+
+l:CRM OPERATIONS TECHNICAL LEAD
+r:Eduard-Alexandru Antipa
+
+l:CRM OPERATIONS MANAGER
+r:Noémie Bousquet
+r:Jonathan Payeur
+r:Mihai-Catalin Mihaila
+
+l:CRM OPERATIONS SPECIALIST
+r:Pierre-Yves Faisant
+r:Cosmin Ionut Popa
+r:William Robinson
+r:Fergus Yeung
+r:Maggy McDonald
+
+l:MANAGER, CRM DESIGN & WEB DEVELOPMENT
+r:Céline Ganichot
+
+l:SENIOR CRM WEB DEVELOPER
+r:Ryan Field
+
+l:JUNIOR WEB DEVELOPER
+r:Serban-Dumitru Nacu
+
+l:CRM DESIGNER
+r:Kathleen Capiral
+r:Eva Rus
+
+l:SR MANAGER, CRM DATA OPERATIONS
+r:Clay Heaton
+
+l:CRM DATA OPERATIONS MANAGER
+r:Emma Bergstrom
+
+l:CUSTOMER EXPERIENCE
+l:VP, CUSTOMER EXPERIENCE
+r:Josh Milligan
+
+l:COMMUNITY
+l:SENIOR DIRECTOR, COMMUNITY & SOCIAL
+r:Jean Guerin
+
+l:DIRECTOR, COMMUNITY 
+r:Nicolas Guion
+
+l:MANAGER, COMMUNITY
+r:Sara Houlison
+
+l:ASSOCIATE MANAGER, COMMUNITY
+r:Zeynep Yavuzcezzar
+
+l:COMMUNITY DEVELOPER
+r:Oliver Walz
+
+l:SR. COMMUNITY MANAGER
+r:Celeste Romano
+
+l:ASSOCIATE MANAGER, COMMUNITY OPERATIONS
+r:Steven Papadopoulos
+
+l:ASSOCIATE MANAGER, COMMUNITY LISTENING
+r:Alessandro Sardelli
+
+l:COMMUNITY SENTIMENT SPECIALIST
+r:Lauren Admire
+
+l:VIDEO EDITOR
+r:Will Cruz
+
+l:CUSTOMER RELATIONSHIP CENTER
+l:GENERAL MANAGER, CRC
+r:Damien Glorieux
+
+l:DIRECTOR, CRC CUSTOMER EXPERIENCE DESIGN
+r:Jean Balaya
+
+l:ASSOCIATE DIRECTOR, CRC CUSTOMER EXPERIENCE
+r:Mathieu Willem
+
+l:CRC CUSTOMER EXPERIENCE MANAGER
+r:Manon Zannone
+r:Thomas Horton
+
+l:MANAGER, CRC APPLICATIONS
+r:Laurianne Ferrandis
+
+l:CRC APPLICATIONS SPECIALIST
+r:Karol Kasinowicz
+r:Kyle Letham
+
+l:CUSTOMER EXPERIENCE PRODUCER
+r:Francisco Garcia
+r:Robyn Cavanagh
+
+l:ASSOCIATE DIRECTOR, STRATEGIC IMPLEMENTATION
+r:Ethan Thompson
+
+l:MANAGER, LEARNING AND DEVELOPMENT
+r:Mark Watt
+
+l:INSTRUCTIONAL DESIGNER
+r:Talia Burr
+
+l:ASSOCIATE INSTRUCTIONAL DESIGNER
+r:Marina Ferreol
+
+l:CRC LEARNING SPECIALIST
+r:Pinak Suvarna
+r:Christopher Blaine Wise
+r:Maddy Mason
+
+l:QUALITY MANAGER
+r:Marie Dubun
+
+l:QUALITY COORDINATOR
+r:Nena Menrath
+r:Kamila Stankiewicz
+
+l:QUALITY GOVERNANCE LEAD 
+r:Jonathan Phillips
+
+l:QUALITY ASSURANCE SPECIALIST 
+r:Nitin Kumar
+r:Shruti Wagedre
+
+l:MANAGER, PROJECT MANAGEMENT OFFICE
+r:Louise Dodds
+
+l:PROJECT MANAGER, PMO
+r:Evan Glynn
+
+l:DIRECTOR, LIVE OPERATIONS
+r:Andrew Millmoor
+
+l:ASSOCIATE DIRECTOR,PLAYER ENGAGEMENT
+r:Marc Giles
+
+l:ASSOCIATE MANAGER INCIDENT MANAGEMENT 
+r:Cari McPherson
+
+l:INCIDENT MANAGEMENT SPECIALIST
+r:Artjoms Bogdanovs
+r:Laura Elise Tyzack
+r:Piotr Szyndler
+r:Alexander Luke Harper-Coulson
+r:Jonathan Hodges
+r:Michael Lynch
+r:Claudia McLean
+r:Lexar Price
+
+l:TEAM LEAD, PLAYER EXPERIENCE INTERACTIONS
+r:Daniel Blackett
+
+l:PLAYER EXPERIENCE INTERACTIONS SPECIALIST
+r:Viaceslav Brazovskij
+r:Daniel Florence
+r:Andrea Floresta
+r:Guy Griffin
+r:Daniel Harrison
+r:Steven Keers
+r:Matthew Lambert
+r:Rei McGahey
+r:Malcolm Pescod
+r:Milad Yamini
+r:Simone Noble
+r:Jonathan Day
+r:Patryk Kubik 
+r:Michal Lemanski 
+r:Lars Bergmann
+r:Genevieve Collins
+r:Kat Yarborough
+
+
+l:ASSOCIATE DIRECTOR, SERVICE DESIGN
+r:Joshua Bolton
+
+l:KCS MANAGER
+r:Michael Hall
+
+l:SERVICE OPERATION SPECIALIST
+r:Kyle Letham
+
+l:SPECIALIST, KNOWLEDGE MANAGEMENT
+r:Friedrich Brilling
+r:Cynthia Ebersberger
+r:Theo Laisement
+r:Rebeca Barrero Medina
+
+l:PROJECT MANAGER, SERVICE DESIGN
+r:Brandon Murdock
+
+l:ASSOCIATE DIRECTOR, SERVICE IMPROVEMENT
+r:Thibaut Porte
+
+l:SERVICE MANAGER
+r:Sofia Kasidou
+r:Amelia Barber
+r:Kevin Tita
+r:Konstantins Jesinskis
+
+l:SENIOR MANAGER, SERVICE ENABLEMENT 
+r:William Richardson
+
+l:PROJECT MANAGER, SERVICE ENABLEMENT
+r:Daniel Melguizo Fernandez
+
+l:PROJECT COORDINATOR, SERVICE ENABLEMENT
+r:Dimitrios Koutsouros
+r:Emma Luton
+r:Kristin Parnitzke
+r:Meg Soulsby
+
+l:SPECIALIST, CRITICAL ISSUES
+r:Amy Hall
+r:Teemu Kangas
+r:Oladayo Adisa
+
+l:SPECIALIST, PROBLEM MANAGEMENT
+r:Casey Blackwood
+r:Quentin Burleson
+r:Paul Chambers
+r:Tyler Denning
+r:Dennis Hilting
+r:Ruth Johnson
+r:Immanuel Slijkhuis
+
+l:SENIOR MANAGER, CUSTOMER SAFETY
+r:Rosaura Fontaine
+
+l:PLAYER SAFETY PROJECT MANAGER
+r:Karolis Svabauskas
+
+l:INCIDENT MANAGEMENT SPECIALIST 
+r:Markus Rohmert
+r:Lexar Price 
+
+l:DIRECTOR, CRC PLAYER SERVICES
+r:Todd Cash
+
+l:TEAM LEAD, INCIDENT MANAGEMENT
+r:Baptiste Lagache
+
+l:SPECIALIST, MONITORING & DETECTION
+r:Markus Rohmert
+r:Stephan Marek
+
+l:SR MANAGER, WORKFORCE MANAGEMENT
+r:Michael LaCross
+
+l:TEAM LEAD, SCHEDULING WFM
+r:Bobby Morris Jr
+
+l:REAL TIME ANALYST
+r:Wojciech Krysinski
+r:Rammzy Masters
+r:Jessica Pyle
+
+l:ASSOCIATE DIRECTOR, CRC VENDOR MANAGEMENT
+r:Katarzyna Nayir
+
+l: MANAGER CRC, VENDOR MANAGEMENT 
+r:William Campbell
+
+l:PROJECT MANAGER, VENDOR OPERATIONS
+r:Zachery Barton
+r:Allie McDowell
+
+l:VENDOR OPERATIONS SERVICE MANAGER
+r:Brian Flythe
+
+l:SPECIALIST, MOBILE SUPPORT
+r:Meia Astbury
+r:Yixing Chen
+r:Chase Larue
+
+l:SENIOR MANAGER, CRC CONTINUOUS IMPROVEMENT
+r:Dominic Smithies
+
+l:SPECIALIST, CONTINUOUS IMPROVEMENT
+r:Andrew Gibson
+r:Paul Hutchinson
+r:Marie Party
+
+l:MANAGER, PLAYER SUPPORT
+r:Christopher Sabhnani
+
+l:ASSOCIATE MANAGER, PLAYER SERVICES
+r:Somreeta Bhowmick
+r:Maria Logacheva
+
+l:TEAM LEAD, INCIDENT MANAGEMENT
+r:Baptiste Lagache
+
+l:INCIDENT MANAGEMENT SPECIALIST
+r:Stephan Marek
+r:Markus Rohmert
+
+l:TEAM LEAD, PLAYER SERVICES
+r:Negi Jagdeep
+r:Sujay Kumar
+r:Lauren King
+r:Shrikant Rawat
+r:Aakashsingh Pardeshi
+r:Manpreet Singh
+
+l:TEAM LEAD, MODERATION
+r:Aamer  Kazi
+
+l:SPECIALIST, WORKFORCE SOLUTIONS
+r:Wilson Salvi
+
+l:SPECIALIST, PLAYER EXPERIENCE INTERACTIONS
+r:Rohit Ahuja 
+r:Vishal Awati 
+r:Mayur Bhagwansing Rajaput
+r:Mari Burns 
+r:Robert Coleman 
+r:Hrishikesh Deo 
+r:Vijay Devidas Taur
+r:Vinod Dhawalgi 
+r:Ganesh Gaikwad 
+r:Shubham Gujar 
+r:Sminu Gupta 
+r:Gaurav Gupta 
+r:Dipti Itroutwar 
+r:Neha Jain 
+r:Anuja Mehetre 
+r:Francisco Muñoz Torres
+r:Abhijeet Nagpure 
+r:Yashraj Patil 
+r:Subham Roy Choudhury
+r:Ashwin Saji 
+r:Shivani Salunke 
+r:Wasim Shaikh 
+r:Sarfaraj Shaikh 
+r:Balraj Shelar 
+r:Piya Sikdar 
+r:Aline Sitnikova 
+r:Rama Swetha Potnuru
+r:Wasim Syed 
+r:Sayyaf Syed 
+r:Nazib Tamboli 
+r:Aurelien Tessier 
+r:Sourav Thapa 
+r:Monalisa Tripathy 
+r:Rohit Vairage 
+r:Harsh Vardhan 
+r:Kat Yarborough 
+
+l:PLAYER EXPERIENCE INTERACTIONS AGENT
+r:Nayan Adangale
+r:Jagdish Deshmukh
+r:Kshitij Dolas
+r:Komal Jagtap
+r:Yatiraj Korade
+r:Karan Lanjewar
+r:Anushka Lindait
+r:Nishad Ovhal
+r:Maranmi Rephung
+r:Aquif Sayyed
+r:Akshay Shirke
+r:Joseph Srambikal
+r:Prayank Vachhani
+
+l:MODERATOR
+r:Pranav Awdhani
+r:Kapilkumar Bansode
+r:Om Chavan
+r:Simran Hirani
+r:Aadesh Jain
+r:Gautam Pimple
+r:Aayan Sayed
+r:Tanzilahmed Sayyed
+r:Litesh Shinde
+
+l:VENDOR PLAYER SERVICES OPERATIONS MANAGEMENT
+r:Garima Chowdhary
+r:Puja Das
+r:Tony Doyle
+
+l:VENDOR PLAYER SERVICES SPOC
+r:Jan Bleij
+r:Claire Cruz
+r:Arthur Da Silva Arruda
+r:Lyndon Fredericks
+r:Mirza Hamedovic
+r:Carmen Lam
+r:Tamara Markov
+r:Abhishek Massey
+r:Lua Medeiros
+r:Gonzalo Medina
+r:Sujal Minj
+r:Eugen Mirza
+r:Simge Noyaner
+r:Bhupendra Pamegam
+r:Gaelle Roux
+r:Avishek Sachdeva
+r:Abhishek Sehra
+r:Anshul Sethi
+r:Yatin Sharma
+r:Sushant Sharma
+r:Pradyumna Singh
+r:Harkirat Singh
+r:Phellipe Teixeira
+r:Vineet Tyagi
+r:Saniya Urazbekova
+r:Jason Van Os
+
+l:VENDOR PLAYER SERVICES
+r:Shaakir Adjiet
+r:Tanzeel Ahmad Keen
+r:Parul Ahuja
+r:Ishmael Al-wassia
+r:Jonathan Aleta
+r:Ricardo Andres Hernandez Guerra
+r:Jay Anora
+r:Ayushi Arora
+r:Oussama Assouab
+r:Hernan Bagadiong
+r:Yassine Baraka
+r:Ralph Berbano
+r:Kenneth Bernardo
+r:Adhyan Bhatia
+r:Pascal Bockmann
+r:Bronia Bronia
+r:Omar Budesca
+r:Reynald Calapre
+r:Rodrigo Caldeira
+r:Jarod Camilo Yarre
+r:Gene Canlas
+r:Timothy Carado
+r:Brandon Casillas
+r:Dan Cedric Rocafort
+r:Soufiane Charouf
+r:Jessica Coetzer
+r:Antonio Cunanan
+r:Rime Daiki
+r:Vannesa De Guia
+r:Lester Dela Cruz
+r:Gazelle Delantar
+r:Andjela Djukic
+r:Luka Djuric
+r:Subhanshu Dotiyal
+r:Alex Dragan
+r:Klyde Duenas
+r:Dounia El Bekri
+r:Jose Emilio Godoy Alamos
+r:Md Faizullah Sabiri
+r:Amine Farij
+r:Damjan Federico
+r:Omar Fernando Perez Vega
+r:Sven Fransman
+r:Jorian Galang
+r:Cristian Garcia
+r:Jose Gerardo Rico Marquez
+r:Jesus Gimena
+r:Diego Gosteinski
+r:Kyle Green
+r:Marco Guglielminotti
+r:Ankit Gupta
+r:Andreas Hammer
+r:Danielle Hilab
+r:Ronyl Hortelano
+r:Prashant Jakhmola
+r:Abhilasha Jariyal
+r:Cristopher Jeir Guerrero Melo
+r:Swati Jhagta
+r:Anna Katarzyna Tekielska
+r:Ravneet Kaur
+r:Magnuss Kazeks
+r:Ketholenuo Ketholenuo
+r:Ademir Kikic
+r:Genc Krasniqi
+r:Aditya Kumar
+r:Ashish Kumar
+r:Ankit Kumar Rai
+r:Neeta Kumari
+r:Kelvin Lahoz
+r:Ewa Lalacz
+r:Andrew Lanot
+r:Nitish Malhotra
+r:Rida Malouh
+r:Joseroy Mamaradlo
+r:Joshua Manalastas
+r:John Mapex Estrella
+r:Aleck Martinez
+r:Divya Mehta
+r:Ira Mei Roque
+r:Ryan Michael Mase
+r:Jihane Moumni
+r:Konstantinos Moustakas
+r:James Naldo
+r:Gaurav Nikhil
+r:Sharmaine Ong
+r:Dimas Osorio
+r:Semih Ozdemir
+r:Juan Pablo Naar Calderon
+r:Lorenzo Padula
+r:Deepanshu Parmar
+r:Santiago Pereira Plata
+r:Jesus Perez
+r:Katarina Petrovic
+r:Scott Pinto
+r:Emil Preljevic
+r:Aryan Primta
+r:Domagoj Prsa
+r:Santosh Rajput
+r:Arthkiel Ramos
+r:Bojan Rankovic
+r:Vlademir Reblando
+r:Riya Riya
+r:Philipp Rodekirchen
+r:Diego Rojas Tellez
+r:Shabnam Rokta
+r:Aleksei Romanov
+r:Isabella Rosales
+r:Iris Ruiz
+r:Nicolas Saavedra
+r:Francisco Sanchez
+r:David Sanya
+r:Duane Saranillo
+r:Dylan Schidlowski
+r:Mary Schmaltz
+r:Sanju Sebastian
+r:Seerat Seerat
+r:Pirnav Sharma
+r:Tarun Sharma
+r:Vedant Sharma
+r:Hritesh Shukla
+r:Jasper Sibal
+r:Rui Silva
+r:Kanuraj Singh
+r:Shivam Singh
+r:Amrit Singh
+r:Armaan Singh
+r:Karandeep Singh
+r:Saurav Singh
+r:Lara Stoger
+r:Denisse Tanagras
+r:Ricardo Teehankee
+r:Anas Thabet
+r:Pritika Thakur
+r:Vanshika Thakurr
+r:Glen Thornton
+r:Arnel Tolete
+r:Othmane Tourabi
+r:Nithin Vaikkattil Madhu
+r:Raphael Ventura
+r:John Villaflor
+r:Dann Villanueva
+r:Michal Wojcik
+r:Dawid Wojtczak
+r:Lorraine Xu
+
+l:MANAGER, CRC APAC
+r:Kei Iwamoto
+
+l:CX MANAGER, CRC APAC
+r:Hikaru Aoki
+
+l:ASSOCIATE DIRECTOR, CRC APAC
+r:Fang Wei
+
+l:GAME & SERVICE EXPERIENCE MANAGER, CRC CHINA
+r:Dai Jia Yi
+
+l:ASSOCIATE SYSTEM PROJECT MANAGER, CRC CHINA
+r:Tian Jing
+
+l:GAME & SERVICES EXPERIENCE SPECIALIST, CRC CHINA
+r:Zeng Qian
+r:Chen Xiao Yan
+
+l:PLAYER SERVICE AGENT, CRC CHINA
+r:Su Yue Ming
+r:Zhou Shan Yu
+
+l:ASSOCIATE LEAD, TRAINING & QUALITY, CRC CHINA
+r:Wei Lin Wei
+
+l:TRAINING & QUALITY SPECIALIST, CRC CHINA
+r:Li Xue
+
+l:KNOWLEDGE & SOCIAL LEAD, CRC CHINA
+r:He Xia
+
+l:KNOWLEDGE SPECIALIST
+r:Ren Han Yu
+r:Zhang Na
+r:Liu Wu Yi
+
+l:HEAD OF ACCOUNTING, UK PUBLISHING
+r:Chris Green
+
+l:FINANCIAL ACCOUNTANT
+r:Eva Tosheva
+
+l:ASSISTANT ACCOUNTANT
+r:Vincent Ho
+
+l:DATA ANALYTICS MANAGER
+r:Diana Munro
+
+l:DATA ANALYST
+r:Jiayi Shen
+
+l:SENIOR MANAGER DATA STRATEGY
+r:Ana Batra
+
+l:MANAGER, BUSINESS INTELLIGENCE
+r:Adam Holding
+
+l:SENIOR BI ANALYST
+r:Edward Walker
+
+l:SENIOR MANAGER, STRATEGIC SOLUTIONS 
+r:Dominik Znajdek
+
+l:SENIOR DIRECTOR, HRBP GLOBAL CUSTOMER EXPERIENCE
+r:Sarah Hinchcliffe-Smith
+
+l:SENIOR HR MANAGER
+r:Alison Dickens
+
+l:HR MANAGER
+r:Amanda McGregor
+
+l:SENIOR HR BUSINESS PARTNER
+r:Jade Wrightson
+
+l:TALENT ACQUISITION AND INTERNAL MOBILITY SPECIALIST
+r:Ayo Ojomo
+
+l:EMPLOYEE EXPERIENCE AND WORKPLACE COORDINATOR
+r:Paula Harvey
+
+l:IT MANAGER
+r:Sunny Toora
+
+l:SENIOR TECHNICIAN
+r:Callum Middlemas
+
+l:JUNIOR IT TECHNICIAN
+r:Jeffrey Slaughter
+
+
+l:CUSTOMER EXPERIENCE - FRONTLINE  
+l:DIRECTOR, CUSTOMER EXPERIENCE
+r:Muhsin Yaramis
+
+l:SENIOR MANAGER, CUSTOMER EXPERIENCE, TOOLS
+r:Christopher Powell
+
+l:CUSTOMER EXPERIENCE TOOLS AND LIVE EVENTS PROGRAMME MANAGER
+r:Marcel Lewandowski
+
+l:CUSTOMER EXPERIENCE PROGRAM MANAGER
+r:Nisha Nair
+
+l:SENIOR MANAGER, CUSTOMER EXPERIENCE FRONTLINE
+r:Tatjana Stojkovic
+
+l:SENIOR CUSTOMER EXPERIENCE PROGRAM MANAGER
+r:Ioan Turcanu
+
+l:CUSTOMER EXPERIENCE PROGRAM MANAGER
+r:Bruno Gomez
+
+l:MANAGER, CUSTOMER EXPERIENCE FRONTLINE
+r:Sharon Berg
+
+l:FRONTLINE PROGRAM MANAGER
+r:Caroline Lopez-Clemons
+
+l:ASSOCIATE FRONTLINE PROGRAM MANAGER
+r:Alexandra Permina
+
+l:ACCESSIBILITY
+l:DIRECTOR, ACCESSIBILITY
+r:David TISSERAND
+
+l:ACCESSIBILITY DESIGN SPECIALIST
+r:Stacey Jenkins
+r:Clinton Lexa
+r:Aderyn Thompson
+
+l:ACCESSIBILITY CONSULTANT
+r:Ian Hamilton
+
+l:PMO, MARKETING SERVICES
+l:DIRECTOR, PMO MARKETING SERVICES
+r:Noemie Magoutier
+
+l:SENIOR PROGRAM MANAGER, PMO
+r:Jason Jennings
+
+l:PROGRAM MANAGER, PMO
+r:Kasey Burt
+
+l:DEPARTMENT ADMIN 
+r:Samia Benkhettache
+
+l: GLOBAL PUBLISHING - GENERAL MANAGEMENT 
+l:CHIEF OF STAFF
+r:Lucile Masson
+
+l:EXECUTIVE ASSISTANT TO CHIEF PUBLISHING OFFICER
+r:Salma Belhadj-Rekai
+
+l:DIRECTOR, INTERNAL & EXECUTIVE COMMUNICATION
+r:Lucia Guzman Santos
+
+l:SENIOR DIRECTOR, TRANSVERSAL PROJECTS
+r:Damien Moret
+
+l:SENIOR DIRECTOR, TRANSFORMATION
+r:Camille Aneas (Levadoux)
+
+l:EVENTS & PRODUCTION MANAGER
+r:Pauline Zufferli
+
+l:COMMUNICATION MANAGERS
+r:Cecile Slebioda
+r:Margaux Lagarrigue
+r:Caroline Albar
+
+l:SALES MARKETING & STRATEGY
+l:VP, SALES MARKETING & STRATEGY
+r:Emmanuel Fauchez
+
+l:ASSOCIATE DIRECTOR SALES STRATEGY & PARTNER MARKETING 
+r:Patrick Mercer
+
+l:PROGRAM MANAGER, SALES PLANNING
+r:Antonin Biancalana
+
+l:SENIOR MANAGER, PARTNER MARKETING
+r:Paul Audino
+
+l:ASSOCIATE PARTNER MARKETING MANAGER
+r:Stephanie Pacheco
+
+l:ASSOCIATE DIRECTOR, PORTFOLIO STRATEGY
+r:Nick Sapper
+
+l:SENIOR PORTFOLIO STRATEGY MANAGER
+r:Jenny Liu
+
+l:PORTFOLIO STRATEGY MANAGER
+r:Mathieu Dalo
+
+l:ASSOCIATE DIRECTOR, SHOPPER MARKETING
+r:Gael Facchetti
+
+
+l:DIGITAL SALES
+l:VP, GLOBAL DIGITAL SALES
+r:Mike Eisenberg
+
+l:SENIOR DIRECTOR, SALES ACCOUNT MANAGEMENT
+r:Jean Raymond
+r:Jodi Bland
+
+l:DIRECTOR, SALES ACCOUNT MANAGEMENT
+r:Karima Touali
+
+l:ASSOCIATE DIRECTOR, SALES ACCOUNT MANAGEMENT
+r:Heather Bartfield
+r:John Carey
+r:Teresa Gorman
+r:Arthur Terlier
+
+l:SR. MANAGER, PARTNER MARKETING
+r:Scott Horowitz
+
+l:SR. ACCOUNT MANAGER, SALES
+r:Lenny Colangelo
+r:Antonin Beck Labat
+r:James Case
+
+l:ACCOUNT MANAGER, SALES
+r:Wendy Break
+r:Julien Morel
+r:Camille Seguy
+
+l:PHYSICAL SALES
+l:SENIOR DIRECTOR, PHYSICAL SALES
+r:Darren Bowen
+
+l:ASSOCIATE DIRECTOR, GLOBAL PHYSICAL SALES
+r:Matthieu Gutierrez
+
+l:SALES DIRECTOR - UK
+r:Michael Rotchell
+
+l:SENIOR ACCOUNT MANAGER
+r:Leigh Willis
+r:Adam Young
+
+l:SENIOR SALES AND PARTNER ANALYST
+r:Jonny Hazell
+
+l:SENIOR DISTRIBUTION SALES MANAGER
+r:Ashley Clayton
+
+l:SALES DIRECTOR - FRANCE & BENELUX
+r:Franck Rosar
+
+l:SENIOR ACCOUNT MANAGER
+r:Mohamed Bahnis
+
+l:SENIOR ACCOUNT MANAGER
+r:Pierre Collot
+
+l:SHOPPER MARKETING ASSISTANT
+r:Kenza Karib
+
+l:SALES ASSISTANT
+r:Clement Guyot
+
+l:SENIOR SALES MANAGER - GSA & CENTRAL EUROPE
+r:Maik Raffelsiefen
+
+l:SENIOR ACCOUNT MANAGER
+r:Detlef Hostettler
+
+l:SENIOR TRADE MARKETING MANAGER
+r:Denis Baab
+
+l:PHYSICAL SALES ANALYTICS MANAGER
+r:Patrick Schmitz
+
+l:SALES PLANNING & OPERATIONS
+l: DIRECTOR, SALES PLANNING & OPERATIONS
+r:Pierre Thomas
+
+l:LIVE OPERATIONS PLANNING MANAGER
+r:Jeffrey Beeke
+
+l:ASSOCIATE DIRECTOR, STOREFRONT OPERATIONS
+r:Michelle Torres
+
+l:PROGRAM MANAGER, STOREFRONT OPERATIONS
+r:Cherrie Chiu
+r:Melissa Scott
+
+l:PROGRAM MANAGER, RAMP
+r:Julia Stallone
+r:Manon Pawlisz
+l:ACCOUNTING
+l:SENIOR DIRECTOR, AMERICAS CONTROLLER
+r:Daniel Pineda Castrillo
+
+l:GLOBAL REVENUE, MANAGER
+r:Eddy Cabon
+
+l:AP ACCOUNTANT - EMEA
+r:Emilie Haustant 
+r:Mohamed Dali
+r:Tiffany Kilola Zola
+
+l:AR ACCOUNTANT - EMEA
+r:Aurélien Bureau
+r:Nathalie Corominola
+r:Sinan Ustuner
+
+l:GL ACCOUNTANT
+r:Lucille Tournier
+r:Quentin Do Lago
+r:Corentin Fernagut
+
+l:SENIOR TAX COUNSEL EMEA
+r:Marie-Helene Ivanov
+
+l:SENIOR FINANCIAL CONTROLLER - EMEA
+r:Pierre Vidal
+
+l:SENIOR AUDIT & FINANCE BUSINESS ANALYST - EMEA
+r:Sylvie Sok
+
+l:SENIOR MANAGER, GL ACCOUNTING - NCSA
+r:Christian Fex
+
+l:SENIOR FINANCIAL ACCOUNTANT - NCSA
+r:David Prejean
+r:Mun Borden
+r:Cody Raxon
+
+l:MANAGER, REVENUE ACCOUNTING - NCSA
+r:Kris Poblete
+
+l:SENIOR REVENUE ACCOUNTANT - NCSA
+r:Carlos Briones
+
+l:REVENUE ACCOUNTANT - NCSA
+r:Meiying Li
+
+l:COMPLIANCE MANAGER - NCSA
+r:Edwin Cruz
+
+l:SENIOR TAX ANALYST - NCSA
+r:Rina Li
+
+l:ASSISTANT CONTROLLER - NCSA
+r:Leslie Reese
+
+l:MANAGER, AR & COLLECTIONS - NCSA
+r:Lauren Jaques
+
+l:CREDIT & COLLECTION ANALYST - NCSA
+r:Carol Harihar
+
+l:SENIOR AR ANALYST - NCSA
+r:Jeanne Variz
+r:May Sun
+
+l:MANAGER, ACCOUNTS PAYABLE - NCSA
+r:Marie Nunnally
+
+l:SENIOR AP SPECIALIST - NCSA
+r:Annie Lu
+
+l:AP SPECIALIST II - NCSA
+r:Kiley Slabiak
+r:Michelle Ridge
+
+l:ACCOUNTS PAYABLE SUPERVISOR - NCSA
+r:Jia Hui Guo
+
+l:ACCOUNTING TECHNICIAN 
+r:Suzie Su
+
+l:SENIOR PAYROLL MANAGER - NCSA
+r:Pablo Ortiz
+
+l:PAYROLL SPECIALIST - NCSA
+r:Hue Trieu
+
+l:FINANCE
+l:SENIOR DIRECTOR, FINANCIAL PLANNING
+r:Marion Siewerth
+
+l:DIRECTOR, FINANCE ANALYTICS
+r:Fred Johnson
+r:Jon Tsai
+
+l:ASSOCIATE DIRECTOR, FINANCE ANALYTICS
+r:Gary Laporte
+
+l:SENIOR MANAGER, FINANCIAL PLANNING & ANALYSIS
+r:Andreea Ilie
+r:Benedicte Thery
+
+l:FINANCE ANALYTICS MANAGER
+r:Audrey Wangsanata
+
+l:FINANCIAL PLANNING MANAGER
+r:Candice Dao
+r:Sunny Li
+
+l:SENIOR FINANCIAL ANALYST
+r:Mengti Guo
+r:Serge-Taofic Tohngodo
+
+l:SENIOR FINANCIAL SYSTEMS ANALYST
+r:Constantin Trepadus
+r:Valentina-Diana Faciu
+
+l:FINANCIAL ANALYST
+r:Matt Depolo
+r:Ouiam Ihamdayen
+r:Julien Khalil
+r:Sajitha Sri
+
+l:PRICING & MARKET ANALYTICS
+l:VP, PRICING & MARKET ANALYTICS
+r:Matthew Dober
+
+l:SENIOR DIRECTOR, MARKET INTELLIGENCE
+r:Robinson Wageman
+
+l:ASSOCIATE DIRECTOR, MARKET INTELLIGENCE
+r:Eric Tsang
+
+l:ASSOCIATE DIRECTOR, PARTNER ANALYTICS
+r:Amita Berry
+
+l:ASSOCIATE DIRECTOR, PRICING STATEGY
+r:Kun Wang
+
+l:MANAGER, PARTNER ANALYTICS
+r:Kasey Maestas
+
+l:MARKET INTELLIGENCE MANAGER
+r:Klaus Jaritz
+
+l:DIGITAL PLANNING MANAGER
+r:Sean Lama
+
+l:SENIOR DIGITAL PLANNER
+r:Christopher Boily
+r:Alex Rosko
+
+l:MARKET INTELLIGENCE ANALYST
+r:Antoine Jonas
+
+l:MARKETING ANALYTICS & OPERATIONS
+l:VP MARKETING ANALYTICS & PUBLISHING INTELLIGENCE
+r:Natasa Jukic
+
+l:ASSOCIATE DIRECTOR, LIVE ANALYTICS
+r:Azeem Shaikh
+
+l:DIRECTOR, PUBLISHING REPORTING & DATA STRATEGY
+r:Dany Waksman
+
+l:SR. DIRECTOR, MARKETING ANALYTICS
+r:Gary Keith
+
+l:SR. MANAGER, MARKETING ANALYTICS
+r:Natasha Borders
+
+l:MANAGER, MARKETING ANALYTICS
+r:Alina Ignatyeva
+
+l:SR. DATA ANALYST, MARKETING ANALYTICS
+r:Xinyi Gu
+r:Ting Xiao
+r:Darragh Feran
+
+l:SR. MANAGER, AUDIENCE ANALYTICS
+r:Nicolas Tatin
+
+l:DATA STRATEGY MANAGER
+r:Ana Batra
+
+l:MANAGER, LIVE ANALYTICS
+r:Ray Benson
+
+l:MANAGER, DATA ANALYTICS
+r:Caio Onishi
+
+l:MANAGER, DATA ANALYTICS
+r:Ying Xiong
+
+l:MANAGER, DATA & REPORTING
+r:Guillaume Lambert
+
+l:DATA ANALYST
+r:Mostafa Istanbuli
+
+l:DATA ANALYST, LIVE ANALYTICS
+r:Adewunmi Aboyade-Cole
+
+l:SR. ANALYST, LIVE ANALYTICS
+r:Mohamed Rezk
+
+l:DATA STRATEGY ANALYST
+r:Jia Hua
+
+l:SR. MANAGER, SUBSCRIPTION ANALYTICS
+r:Miguel Rodríguez
+
+l:TEAM LEAD ANALYTICS
+r:Yosra Neji
+
+l:DATA SCIENTIST
+r:Marek Krowicki
+r:Vincent Espanol
+
+l:DATA ANALYST, E-COMMERCE
+r:Carla Rizk
+r:Alejandro Pinilla
+
+l:DATA ANALYST, AUDIENCE
+r:Camile Souvigny
+r:Shruti Raj
+r:Heng-Yuan Gao
+
+l:SUPPLY CHAIN
+l:GLOBAL SUPPLY CHAIN
+r:Lionel Caré
+
+l:GLOBAL MANUFACTURING PLANNING
+r:Tiffany Milovanovic (Mgr)
+r:Rosemarie Azardoust
+r:Nicolas Bessuand
+r:Alexis Mesurat
+r:Mia Lee
+r:Hao Lu 
+
+l:GLOBAL SALES OPERATIONS & OPERATIONS
+r:Anne Desrues Vinet
+
+l:SALES OPERATIONS AMERICAS
+r:Rossana Tisdale (Mgr)
+r:Florence Claybon
+r:Trisha Young
+
+l:SALES OPERATIONS - EUROPE
+r:Christoph Pickartz (Mgr)
+r:Thomas Brausen
+r:Sarah Huebner
+r:Tania Kingsley
+r:Alexandra Neubauer
+r:Samantha Williams
+
+l:OPERATIONS AMERICAS
+r:Joni Martin (Mgr)
+r:Danijel Dokic
+r:Dmytro Vyshyvanyi
+
+l:OPERATIONS EUROPE
+r:Violaine de Jacquelin
+r:Yaren Hotaman
+
+l:GLOBAL LOGISTIC
+r:Sebastien Disarbois (Mgr)
+r:Rachel reyes
+r:Shauna Savage
+r:Zélie Fumery
+r:Bertrand Dupuis
+r:Mireille Ahoton
+
+l:CSR COMPLIANCE
+r:Caroline Srun
+
+l:SENIOR GLOBAL SUPPLY CHAIN TRANSFORMATIONS
+r:Sofia Tomaras
+
+l:SENIOR NEW RELEASE AND SALES OPERATION
+r:Valina Rathikoun
+
+l:RETAIL DATA ADMINISTRATION AND SALES OPERATIONS ACCOUNT MANAGER
+r:Gerline Dorsainvil
+
+l:US TEAMS
+l:GENERAL MANAGER USA
+r:Brenda Panagrossi
+
+l:HEAD OF MARKETING, US ENGAGEMENT
+r:Danny Ruiz
+
+l:DIRECTOR, US COMMUNICATIONS
+r:Dominic DiSanti
+
+l:SENIOR US COMMUNICATIONS MANAGER
+r:Anthony Acosta
+r:Christopher Navalta
+
+l:COMMUNICATIONS SPECIALIST
+r:Jun Chen
+
+l:US MARKETING COORDINATOR
+r:Jeff Steinberger
+
+l:ASSOCIATE DIRECTOR, US CONTENT CREATORS
+r:Will Hyde
+
+l:US CREATOR ENGAGEMENT MANAGER
+r:Torre Payton-Jackson
+
+l:US CREATOR ENGAGEMENT SPECIALIST
+r:Serena Szarka
+
+l:LATAM TEAMS
+l:MANAGING DIRECTOR - LATIN AMERICA
+r:Bertrand Chaverot
+
+l:SALES MANAGER - MEXICO
+r:Andrés Cravioto-Torre
+
+l:ADMINISTRATIVE ANALYST - BRAZIL
+r:Camila Pereira
+
+l:ACCOUNTING & FINANCE MANAGAR - LATAM
+r:Fábio Conrado
+
+l:FINANCE ANALYST - LATAM
+r:Douglas Borges
+
+l:HEAD OF COMMUNITY MANAGEMENT - LATAM
+r:Guilherme 'Sarda' Jorge Galbes
+
+l:MARKETING ANALYST - BRAZIL 
+r:Isabella Pinheiro
+
+l:JUNIOR MARKETING ANALYST - MEXICO 
+r:Jennifer Flores
+
+l:MARKETING MANAGER - MEXICO
+r:Jesús Carlos Domínguez
+
+l:COMMUNICATIONS & EVENTS MANAGER - LATAM 
+r:João Guerra
+
+l:COMMUNICATIONS & EVENTS ANALYST- BRAZIL 
+r:Mayara Jaoude
+
+l:SENIOR HR MANAGER LATAM
+r:Juliana Tanaka
+
+l:OPERATIONS & CONTENT MONETIZATION MANAGER - BRAZIL
+r:Monica Ingala
+
+l:SENIOR MARKETING MANAGER - BRAZIL
+r:Luciana Araujo
+
+l:COMMUNITY MANAGER & EDITOR - BRAZIL
+r:Luis Mendes
+
+l: CONTENT PRODUCER & PRESENTER - BRAZIL
+r:Maicol Ximenes
+
+l:MOBILE MARKETING MANAGER LATAM
+r:Maite Lorente
+
+l:MOBILE MARKETING ANALYST LATAM
+r:Tammy Sguizzatto
+
+l:SENIOR CREATIVE SERVICES MANAGER LATAM
+r:Paulo 'Tofu' Roberto Yamashiro
+
+l:SENIOR MANAGER, RETAIL & DIGITAL SALES - LATAM
+r:Renan Ciardi
+
+l: COMMUNITY MANAGER - BRAZIL
+r:Stéfanie Neuman
+
+l:EUROPE & CANADA TEAMS
+l:MANAGING DIRECTOR EUROPE
+r:Ralf Wirsing
+
+l:SENIOR INTERNAL COMMUNICATIONS & PROJECT MANAGER
+r:Hanno Neuhaus
+
+l:REGIONAL HUB SOUTHERN EUROPE
+l:GENERAL MANAGER MARKETING
+r:Benedicte Germain (Bigo)
+
+l:HEAD OF COMMUNICATIONS & CONTENT CREATORS
+r:Alexandre Bastien-Riboni
+
+l:SOCIAL ENGAGEMENT GROUP MANAGER
+r:Elisa Steinmetz
+
+l:SOCIAL ENGAGEMENT SPECIALIST FRANCE
+r:Juliette Pivot
+r:Pierre Loubens
+
+l:CONTENT CREATORS MANAGER FRANCE 
+r:Caroline Bancquart
+r:Chloé Llorens
+r:Grégory Pouchain
+
+l:SENIOR COMMUNICATIONS MANAGER FRANCE 
+r:Emmanuel Carre
+r:Pascal Lecointe
+
+l:SENIOR CONTENT CREATORS MANAGER IBERIA
+r:Rafael Ayuga
+
+l:COMMUNICATIONS MANAGER IBERIA
+r:Rebeca Fernández
+
+l:SOCIAL ENGAGEMENT MANAGER SPAIN
+r:Luisa Larios
+
+l:COMMUNICATIONS MANAGER ITALY
+r:Laura Inglima
+
+l:SOCIAL ENGAGEMENT MANAGER ITALY
+r:Marta Alvari
+
+l:CONTENT CREATORS MANAGER ITALY
+r:Davide Tosini
+
+l:REGIONAL CREATIVE SPECIALIST
+r:Audrey Chemoul
+
+l:TRANSVERSAL MARKETING PROJECT MANAGER 
+r:Steffi Xavier
+
+l:REGIONAL HUB CENTRAL EUROPE
+l:GENERAL MANAGER MARKETING CENTRAL EUROPE
+r:Karsten Jahn
+
+l:HEAD OF SOCIAL ENGAGEMENT & ESPORTS
+r:Marc Homayounpour
+
+l:HEAD OF CONTENT CREATOR & COMMUNICATION CENTRAL EUROPE
+r:Norman Habakuck
+
+l:SENIOR PROJECT MANAGER, TRANSVERSAL MARKETING 
+r:Niko Meves
+
+l:E-SPORTS SPECIALIST GSA
+r:Alina Sarkisjan
+
+l:CREATIVE MANAGER GSA
+r:Kevin Esch
+
+l:SENIOR CONTENT CREATOR MANAGER
+r:Bjoern Dressel
+r:Hubert Hatlas
+
+l:CONTENT CREATOR MANAGER
+r:Julien Jaensch
+r:Bart Pijls
+
+l:SENIOR COMMUNICATION MANAGER
+r:Maik Buetefuer
+r:Veronika Stricker
+r:Kamil Sciana
+
+l:COMMUNICATIONS MANAGER
+r:Charlotte Van Almenkerk
+
+l:SENIOR SOCIAL ENGAGEMENT MANAGER
+r:Simon Magata
+r:Stefanie Lüftner
+r:Michal Hinc
+
+l:SOCIAL ENGAGEMENT SPECIALIST
+r:Anna-Lena Koch
+
+l:COMMUNITY ADVOCACY MANAGER
+r:Ramona Hensel
+
+l:SENIOR DIRECTOR GSA 
+r:Ulf Morys
+
+l:ACCOUNTS RECEIVABLES ACCOUNTANT GSA
+r:Claudia Reese
+r:Gisela Merkle
+
+l:ACCOUNTS PAYABLE ACCOUNTANT GSA
+r:Nicole Niklitschek
+
+l:REGIONAL HUB NORTHERN EUROPE,CANADA,MENA
+l:GENERAL MANAGER MARKETING NORTHERN EUROPE, CANADA 
+r:Mark Slaughter
+
+l:COMMUNICATIONS & CONTENT CREATORS DIRECTOR
+r:Stefan McGarry
+
+l: HEAD OF SOCIAL ENGAGEMENT 
+r:Chris Place
+
+l:REGIONAL ESPORTS & TRANSVERSAL PROJECT MANAGER
+r:Neale Maker
+
+l:REGIONAL CREATIVE MANAGER 
+r:Phil Smith
+
+l:CONTENT CREATORS MANAGER UK
+r:Silvia Gomis-Lopez
+r:Liam Redman
+
+l:SOCIAL ENGAGEMENT MANAGER UK
+r:Keir Campbell
+
+l: COMMUNICATIONS MANAGER UK
+r:Livvy Garner
+r:Calum Ridgewell
+
+l:SOCIAL ENGAGEMENT MANAGER NORDICS
+r:Carolina Mårtensson
+
+l: CONTENT CREATORS MANAGER NORDICS
+r:Casper Jakob Jensen
+
+l:COMMUNICATIONS MANAGER NORDICS
+r:Jonas Damholt
+
+l:SOCIAL ENGAGEMENT MANAGER CANADA
+r:Geoffroy Santacreu
+
+l:CONTENT CREATORS MANAGER CANADA
+r:Valérie Lauzier
+
+l:COMMUNICATIONS SPECIALIST CANADA
+r:Olivier Bessette 
+
+l:TERRITORY DIRECTOR MENA
+r:Gareth Evans
+
+l:MARKETING MANAGER MENA 
+r:Febronia Magdy Ibrahim
+
+l:LOCALISATION & SOCIAL MEDIA MANAGER MENA
+r:Mohammed Abdullah Alemam
+
+l:COMMUNICATIONS MANAGER MENA
+r:Nawaf Alnaghmoosh
+
+l:DIRECTOR EXPORT
+r:Natalie Williams
+
+l:EXPORT HEAD OF COMMUNICATIONS & CONTENT CREATORS 
+r:Manab Roy
+
+l: EXPORT MARKETING MANAGER 
+r:Daniel Archbold
+
+l:SENIOR CREDIT CONTROLLER UK
+r:Cherie Harding
+
+l:HEAD OF ACCOUNTING UK
+r:Chris Green
+
+l:FINANCIAL ACCOUNTANT UK
+r:Genesis Yeow
+
+l:ASSISTANT FINANCIAL ACCOUNTANT UK
+r:Sarah Kearon
+
+l: IT MANAGER UK
+r:Gary Simmens
+
+l:APAC TEAMS
+l:MANAGING DIRECTOR ASIA PACIFC
+r:Edward Fong
+
+l:BRAND MANAGER SEA
+r:Aaron Tan
+r:Kaye Chuang
+
+l:ASSOCIATE SOCIAL MEDIA MANAGER
+r:Andy Lai
+
+l:CREATIVE SERVICE COORDINATOR
+r:Chester Yang
+
+l:MARKETING MANAGER
+r:Irene Chen
+
+l:ASSOCIATE ESPORTS MANAGER
+r:Hua Fan
+
+l:COMMUNICATIONS AND PR MANAGER
+r:Samantha Chua
+
+l:SENIOR MARKETING MANAGER
+r:Sophia Lek
+
+l:DIGITAL COMMERCE MANAGER ASIA
+r:Onno Nooij
+
+l:MANAGEMENT ACCOUNTANT
+r:Ruthie Malinao
+
+l:I.T. MANAGER
+r:Tony Ryan
+
+l:GENERAL MANAGER, APAC NORTH
+r:Ozan Kocoglu
+
+l:MARKETING DIRECTOR, APAC NORTH
+r:Hideyo Ikeda
+
+l:BRAND ENGAGEMENT MANAGER, JAPAN
+r:Haruka Omori
+
+l:BRAND ENGAGEMENT & ESPORTS MANAGER, JAPAN
+l:SAHIL KULKARNI
+
+l:MEDIA PLANNER, APAC
+r:Rumiko Miyashita
+
+l:HEAD OF COMMUNITY DEVELOPMENT & CREATIVE SERVICES, APAC NORTH
+r:Haruka Hikita
+
+l:CREATIVE SERVICES MANAGER, JAPAN
+r:Chizuru Komori
+
+l:COMMUNICATIONS MANAGER, JAPAN
+r:Aryaan Razzaghi
+
+l:SOCIAL ENGAGEMENT MANAGER, JAPAN
+r:Rina Yamamoto
+
+l:CONTENT CREATORS MANAGER, JAPAN
+r:Lina Rosenplaenter
+
+l:PUBLISHING PRODUCTION DIRECTOR, JAPAN
+r:Kwangheon Shim
+
+l:SALES DIRECTOR, JAPAN
+r:Yoshihisa Tsuji
+
+l:HR BUSINESS PARTNER, APAC
+r:Christopher Jackisch
+
+l:FINANCE MANAGER, APAC NORTH
+r:Keisuke Saigo
+
+l:LOGISTICS AND SALES COORDINATOR
+r:Beckie Maekawa
+
+l:SENIOR DIRECTOR FOR SALES & MARKETING
+r:Mike Kolodzinski
+
+l:APAC ACCOUNT DIRECTOR
+r:Bianca Silingardi
+
+l:APAC ACCOUNT MANAGER
+r:Andrew Shore
+
+l:BRAND ENGAGEMENT MANAGER
+r:Jaycob Fong
+r:Julian Perri
+
+l:HEAD OF COMMUNICATIONS, ANZ
+r:James Mahon
+
+l:INFLUENCER & COMMUNITY MANAGER, ANZ
+r:Laura Beitzel
+
+l:LOCALIZATION & RELEASE MANAGEMENT DIRECTOR, ASIA
+r:Titus Ou
+
+l:LOCALIZATION MANAGER
+r:Dabe Chang
+r:Iris Choi
+r:Rivet Chiu
+r:Sadayuki Kishida
+r:Shigehiro Inada
+r:Veaper Chen
+r:Wade Lim
+r:Yohei Aso
+
+l:GAME TESTER
+r:Hiroyuki Tagami
+
+l:CHINA TEAMS
+l:MARKETING & SALES DIRECTOR
+r:Wilfried Hary
+
+l:DIGITAL MARKETING DIRECTOR
+r:Cao Jiao Jiao
+
+l:PERFORMANCE MARKETING MANAGER
+r:Cai Meng Jie
+
+l:SOCIAL MEDIA MANAGER
+r:Hu Xiao Wen
+
+l:SOCIAL MEDIA SPECIALIST
+r:Huang Yu Fei
+
+l:SOCIAL MEDIA TRAINEE
+r:Zhang Tong
+
+l:COMMUNITY MANAGER
+r:Jia Xu Yao
+
+l:JUNIOR COMMUNITY MANAGER
+r:Lin Yi Fan
+r:Zhou Jun Feng (Crows)
+
+l:COMMUNITY REPRESENTATIVE
+r:Wu Jia Rui
+
+l:FRONTLINE PROJECT MANAGER
+r:Kong Jun
+
+l:SENIOR PR SPECIALIST
+r:Ni Ren Long (Neal)
+
+l:SENIOR BRAND MANAGER
+r:Sun Jian
+r:Yu Xin Ming (Alex)
+r:Zhang Shuai
+r:Lu Hai Tian
+
+l:MARKETING TRAINEE
+r:Zhu Zhen Jiang
+
+l:MARKETING CAMPAIGN MANAGER
+r:Wo Jia Chen
+r:Wu Guang Hao
+
+l:EVENT MANAGER
+r:Han Peng
+
+l:JUNIOR EVENT OFFICER
+r:Dong Jing
+
+l:MARKETING CAMPAIGN TRAINEE
+r:Li Qian Hui
+
+l:EVENT PROJECT MANAGER
+r:Xia Qian Yu
+
+l:JUNIOR PROJECT MANAGER-UBI TV
+r:Yang Yi
+
+l:GAME & MARKET ANALYST
+r:Hu Yi Dong
+
+l:COMMUNICATION MANAGER
+r:Wang Jing Xian (Eloise)
+
+l:SALES DIRECTOR
+r:Zeng Shui Juan (Sapphira)
+
+l:WEB MANAGER
+r:Chen Jun
+
+l:WEB & GRAPHIC DESIGNER
+r:Bai Yu Ru
+
+l:PLATFORM DEVELOPER
+r:Wan Xin
+
+l:JUNIOR SALES SPECIALIST
+r:Liu Yan
+
+l:SENIOR MANAGER, LICENSING OUT
+r:Shen Min
+
+l:SALES TRAINEE(UBI STORE)
+r:Ling Si Yi
+
+l:JUNIOR BRAND MANAGER
+r:Liu Li Xin
+
+l:DIGITAL SALES SPECIALIST
+r:Zhou Yan
+
+l:ASSOCIATE MANAGER, DISTRIBUTION PARTNERSHIP
+r:Zhu Yun Long
+
+l:DISTRIBUTION PARTNERSHIP TRAINEE
+r:Zheng Yi Gang
+
+l:LEAD MARKETING ARTIST
+r:Zhang Yan Yi (Sophia)
+
+l:MARKETING ARTIST
+r:Chen Min Lei
+r:Shi Xue Han
+
+l:VIDEO ARTIST
+r:Gu Wei Wen
+r:Jiang Tian Jiao
+r:Zeng Li
+
+l:CREATIVE & ART PRODUCTION MANAGER
+r:Zhi Fei Ping
+
+l:MARKETING ARTIST TRAINEE
+r:Zhong Yi Qun
+
+l:D2P
+l:DIRECTOR, ECOMMERCE
+r:Jamie Kruyk
+
+l:ASSOCIATE DIRECTOR, ECOMMERCE SALES
+r:Niels Bogdan
+
+l:SR ECOMMERCE SALES SPECIALIST 
+r:Manon Caffiers
+
+l:SR DIRECTOR, UBISOFT+
+r:Philippe Tremblay
+
+l:ASSOCIATE DIRECTOR, ACQ. & PARTNERSHIPS, UBISOFT+
+r:Stephanie Franc
+
+l:ASSOCIATE DIRECTOR, GLOBAL BRAND UBISOFT+
+r:Isabelle Viot
+
+l:UBISOFT+ PRODUCT ASSOCIATE MANAGER
+r:Emmanuel Haouas
+
+l:UBISOFT+ BRAND SPECIALIST
+r:Carmélie Quaix
+
+l:CONTENT MANAGER, UBISOFT+
+r:Gaetan Lusven
+
+l:UBISOFT+ ASSOCIATE CONTENT MANAGER
+r:Eva Hulin
+
+l:SR DIRECTOR, D2P MARKETING
+r:Remi Perreault
+
+l:SR MANAGER, D2P GROWTH MARKETING
+r:Nicola Yap
+
+l:SR MANAGER, D2P MARKETING STRATEGY
+r:Waikei Tse
+
+l:MANAGER, D2P MARKETING STRATEGY
+r:Beatrice Ascani
+
+l:MANAGER, D2P MARKETING OPERATIONS
+r:Adam Franc
+
+l:D2P MARKETING OPERATIONS SPECIALIST
+r:Florence Roy
+
+l:D2P CREATIVE & MARKETING CHANNELS SPECIALIST
+r:Kevin Dinh
+
+l:D2P MARKETING GRAPHIC DESIGNER
+r:Kelly Patilla
+
+l:D2P BRAND CREATIVE MANAGER
+r:Jean-Daniel Pagé
+
+l:SR D2P DIGITAL PERFORMANCE MARKETING MANAGER
+r:Julie Delage
+
+l:ASSOCIATE DIRECTOR, D2P OPERATIONS
+r:Aurélien Mas
+
+l:SR MANAGER, D2P PLATFORM OPERATIONS
+r:Félix Turpin
+
+l:D2P PLATFORM OPERATIONS ASSOCIATE MANAGER
+r:Julien Wolberg
+
+l:D2P PLATFORM OPERATIONS SPECIALIST
+r:Audrey-Ann Marleau
+
+l:MANAGER, D2P OPERATIONS
+r:Sofia Setti
+
+l:D2P OPERATIONS MANAGER
+r:Tony Hsu 
+
+l:D2P OPERATIONS ASSOCIATE MANAGER
+r:Lucas Genevois 
+
+l:D2P OPERATIONS SPECIALIST
+r:Carine Clergé
+r:Théo Derennes
+
+l:PROGRAM MANAGER, D2P
+r:Marie-Josée Laflèche
+
+l:ASSOCIATE D2P PLATFORM & OPERATIONS MANAGER
+r:Bastien Sohier
+
+l:D2P OPERATIONS COORDINATION ASSISTANT
+r:Nicolas Weissbecker
+
+l:D2P OPERATIONS CONVERSION MANAGER
+r:Valentin Cuisenier
+
+l:D2P OPERATIONS CONVERSION SPECIALIST
+r:Guillaume Petin
+
+l:ECOMMERCE CONVERSION ASSISTANT
+r:Alix Macchabee
+
+l:DIRECTOR, D2P EXPERIENCE
+r:Julien Besner
+
+l:D2P EXPERIENCE SR MANAGER, CX
+r:Isabelle Gosselin
+
+l:D2P EXPERIENCE CX ASSOCIATE MANAGER
+r:Thomas Malezet
+
+l:ASSOCIATE DIRECTOR, USER EXPERIENCE
+r:Sophie Dos Santos
+
+l:D2P EXPERIENCE UX MANAGER
+r:Adriano De Luca
+
+l:D2P EXPERIENCE UI/UX DESIGNER
+r:Juliette Cornet
+r:Axel Roquain
+
+l:ASSOCIATE DIRECTOR, PORTFOLIO MANAGEMENT
+r:Mylène Marx
+
+l:SR D2P PORTFOLIO MANAGER
+r:Sarah Decaudaveine
+
+l:D2P PORTFOLIO MANAGER
+r:Théodore Jowett
+h:SOFTWARE USED
+n:Uses Simplygon ®, © 2025 Microsoft
+n: 
+i:data/ui/credits/logo_bink.png
+n:- “Uses Bink Video. Copyright (C) 1997-2025 by RAD Game Tools, Inc.” 
+n: 
+i:data/ui/credits/logo_wwise.png
+n:Powered by Wwise © 2006 – 2025* Audiokinetic Inc. All rights reserved.
+n: 
+n:“Portions of this software utilize SpeedTree® technology (©2025 Interactive Data Visualization, Inc.). SpeedTree® is a registered trademark of Interactive Data Visualization, Inc. All rights reserved.”
+n: 
+n:Supported by
+i:data/ui/credits/bmftr.png
