@@ -5,12 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anno 117 Admin Panel</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .resource-category {
+            margin-bottom: 20px;
+        }
+        .resource-category-header {
+            background: var(--primary-color);
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+        .resource-category-header:hover {
+            background: var(--accent-color);
+        }
+        .resource-category-content {
+            display: none;
+            padding: 15px;
+            background: var(--background);
+            border-radius: 5px;
+            border-left: 4px solid var(--primary-color);
+        }
+        .resource-category-content.active {
+            display: block;
+        }
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .resource-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+            background: var(--surface);
+            border-radius: 4px;
+        }
+        .resource-item input {
+            width: 60px;
+            padding: 4px 8px;
+        }
+        .resource-item button {
+            padding: 4px 12px;
+            font-size: 0.9em;
+        }
+        .category-icon {
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        .expand-icon {
+            transition: transform 0.3s ease;
+        }
+        .expand-icon.rotated {
+            transform: rotate(180deg);
+        }
+        .quick-actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            width: 100%;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            border-radius: 5px;
+            color: var(--text-primary);
+            font-size: 1em;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🏛️ Anno 117 Admin Panel</h1>
-            <p class="subtitle">Pax Romana Admin Control Center</p>
+            <p class="subtitle">Pax Romana Admin Control Center - Complete Edition</p>
         </header>
 
         <nav class="tabs">
@@ -26,61 +102,104 @@
             <!-- Resources Tab -->
             <div class="tab-content active" id="resources">
                 <h2>Resource Management</h2>
-                
+                <p style="color: var(--text-secondary); margin-bottom: 20px;">
+                    110+ resources extracted from game files. Click categories to expand.
+                </p>
+
+                <input type="text" id="resource-search" class="search-box" placeholder="Search resources..." onkeyup="filterResources()">
+
+                <div class="quick-actions">
+                    <button class="btn-success" onclick="maxAllResources()">Max All Resources</button>
+                    <button onclick="expandAllCategories()">Expand All</button>
+                    <button onclick="collapseAllCategories()">Collapse All</button>
+                </div>
+
+                <!-- Money -->
                 <div class="section">
                     <h3>💰 Currency</h3>
                     <div class="control-group">
                         <label>Add Coins:</label>
-                        <input type="number" id="coins-amount" value="10000" min="0">
-                        <button onclick="addResource('coins')">Add Coins</button>
-                        <button onclick="maxResource('coins')">Max Coins</button>
+                        <input type="number" id="coins-amount" value="100000" min="0">
+                        <button onclick="addResource('Money', '1010017', document.getElementById('coins-amount').value)">Add Coins</button>
+                        <button onclick="maxResource('Money', '1010017')">Max Coins</button>
                     </div>
                 </div>
 
-                <div class="section">
-                    <h3>🪵 Materials</h3>
-                    <div class="grid-2">
-                        <div class="control-group">
-                            <label>Wood:</label>
-                            <input type="number" id="wood-amount" value="100" min="0">
-                            <button onclick="addResource('wood')">Add</button>
-                        </div>
-                        <div class="control-group">
-                            <label>Stone:</label>
-                            <input type="number" id="stone-amount" value="100" min="0">
-                            <button onclick="addResource('stone')">Add</button>
-                        </div>
-                        <div class="control-group">
-                            <label>Tools:</label>
-                            <input type="number" id="tools-amount" value="50" min="0">
-                            <button onclick="addResource('tools')">Add</button>
-                        </div>
-                        <div class="control-group">
-                            <label>Weapons:</label>
-                            <input type="number" id="weapons-amount" value="50" min="0">
-                            <button onclick="addResource('weapons')">Add</button>
-                        </div>
+                <!-- Construction Materials -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🏗️</span>Construction Materials (14)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="construction-grid"></div>
                     </div>
                 </div>
 
-                <div class="section">
-                    <h3>🌾 Food & Goods</h3>
-                    <div class="grid-2">
-                        <div class="control-group">
-                            <label>Food:</label>
-                            <input type="number" id="food-amount" value="100" min="0">
-                            <button onclick="addResource('food')">Add</button>
-                        </div>
-                        <div class="control-group">
-                            <label>Cloth:</label>
-                            <input type="number" id="cloth-amount" value="50" min="0">
-                            <button onclick="addResource('cloth')">Add</button>
-                        </div>
+                <!-- Food & Consumables -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🍞</span>Food & Consumables (13)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="food-grid"></div>
                     </div>
                 </div>
 
-                <div class="section">
-                    <button class="btn-large btn-success" onclick="maxAllResources()">Max All Resources</button>
+                <!-- Agriculture -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🌾</span>Agriculture & Crops (11)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="agriculture-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Crafted Goods -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">👕</span>Crafted Goods & Clothing (11)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="crafted-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Luxury Goods -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">💎</span>Luxury Goods (14)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="luxury-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Animals -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🐑</span>Animals & Livestock (6)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="animals-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Raw Materials -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">⚙️</span>Raw Materials & Others (41)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="raw-grid"></div>
+                    </div>
                 </div>
             </div>
 
@@ -164,14 +283,6 @@
                         <button class="btn-block" onclick="executeCommand('god_mode')">Enable God Mode</button>
                         <button class="btn-block" onclick="executeCommand('invincibility')">Enable Invincibility</button>
                     </div>
-                </div>
-
-                <div class="section">
-                    <h3>💾 Save/Load</h3>
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="auto-save-toggle" onchange="toggleFeature('auto_save', this.checked)">
-                        Enable Auto-Save Every 5 Minutes
-                    </label>
                 </div>
             </div>
 
@@ -260,35 +371,30 @@
                     <h3>📖 How to Use</h3>
                     <ol>
                         <li>Keep this admin panel open in your browser</li>
-                        <li>Launch Anno 117 - Pax Romana</li>
+                        <li>Launch Anno 117: Pax Romana</li>
                         <li>Use the tabs above to access different admin features</li>
                         <li>Click buttons to execute commands instantly</li>
-                        <li>Commands are executed in the game console</li>
+                        <li>Commands are copied to clipboard and logged in console</li>
                     </ol>
                 </div>
 
                 <div class="section">
-                    <h3>⌨️ Keyboard Shortcuts</h3>
-                    <table class="shortcuts-table">
-                        <tr>
-                            <td><code>~</code> or <code>`</code></td>
-                            <td>Open in-game console</td>
-                        </tr>
-                        <tr>
-                            <td><code>Ctrl + R</code></td>
-                            <td>Refresh admin panel</td>
-                        </tr>
-                        <tr>
-                            <td><code>F1</code></td>
-                            <td>Toggle help overlay</td>
-                        </tr>
-                    </table>
+                    <h3>🎯 Resource System</h3>
+                    <p>This admin mod includes <strong>110+ actual resources</strong> extracted from Anno 117 game files:</p>
+                    <ul>
+                        <li><strong>Construction Materials:</strong> Timber, Marble, Iron, Limestone, Granite, etc.</li>
+                        <li><strong>Food:</strong> Bread, Garum, Wine, Cheese, Fish, Beer, etc.</li>
+                        <li><strong>Agriculture:</strong> Wheat, Olives, Grapes, Hemp, Flax, etc.</li>
+                        <li><strong>Crafted Goods:</strong> Tunics, Togas, Sandals, Cloth, etc.</li>
+                        <li><strong>Luxury:</strong> Gold, Silver, Glass, Amphorae, Jewelry, etc.</li>
+                        <li><strong>Animals:</strong> Sheep, Horses, Pigs, Aurochs, etc.</li>
+                    </ul>
                 </div>
 
                 <div class="section">
                     <h3>⚠️ Important Notes</h3>
                     <div class="alert alert-warning">
-                        <strong>Warning:</strong> Using admin commands may affect game balance and achievements.
+                        <strong>Warning:</strong> Using admin commands may affect game balance.
                         Always backup your saves before using cheats!
                     </div>
                 </div>
@@ -305,7 +411,7 @@
         </main>
 
         <footer>
-            <p>Anno 117 Admin Mod v1.0 | <span id="status">Ready</span></p>
+            <p>Anno 117 Admin Mod v1.0 | <span id="status">Ready</span> | 110+ Resources from Game Files</p>
         </footer>
     </div>
 
