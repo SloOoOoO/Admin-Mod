@@ -1,6 +1,6 @@
-# Anno 1701 Admin Mod
+# Anno 117 Admin Mod
 
-A comprehensive admin and cheat mod for Anno 1701 - Pax Romana with a user-friendly web-based control panel.
+A comprehensive admin and cheat mod for Anno 117 - Pax Romana with a user-friendly web-based control panel.
 
 ## 🎮 Features
 
@@ -16,9 +16,9 @@ A comprehensive admin and cheat mod for Anno 1701 - Pax Romana with a user-frien
 ## 📦 Quick Start
 
 1. **Download** the `AdminMod` folder from this repository
-2. **Copy** the entire folder to your Anno 1701 installation directory
+2. **Copy** the entire folder to your Anno 117 installation directory
 3. **Open** `AdminMod/AdminPanel/index.html` in your web browser
-4. **Launch** Anno 1701 and enjoy!
+4. **Launch** Anno 117 and enjoy!
 
 👉 See [QUICKSTART.md](AdminMod/QUICKSTART.md) for detailed setup instructions.
 
@@ -34,7 +34,7 @@ A comprehensive admin and cheat mod for Anno 1701 - Pax Romana with a user-frien
 ### Basic Installation
 
 ```bash
-1. Navigate to your Anno 1701 directory
+1. Navigate to your Anno 117 directory
 2. Copy the AdminMod folder here
 3. Open AdminMod/AdminPanel/index.html in browser
 4. Start the game
@@ -43,7 +43,7 @@ A comprehensive admin and cheat mod for Anno 1701 - Pax Romana with a user-frien
 ### File Structure
 
 ```
-Anno1701/
+anno117/
 ├── AdminMod/
 │   ├── AdminPanel/          # Web-based UI
 │   │   ├── index.html       # Main interface
@@ -134,7 +134,7 @@ The Admin Panel provides an intuitive interface with:
 
 ## ⚙️ Requirements
 
-- Anno 1701 - Pax Romana (any version)
+- Anno 117 - Pax Romana (any version)
 - Modern web browser (Chrome, Firefox, Edge)
 - Windows, Mac, or Linux (browser compatibility)
 
@@ -159,7 +159,7 @@ This mod is free to use and modify for personal use. Please credit the original 
 
 ## 🙏 Credits
 
-Created for the Anno 1701 - Pax Romana modding community.
+Created for the Anno 117 - Pax Romana modding community.
 
 ## 📧 Support
 
@@ -185,4 +185,4 @@ Still need help? Open an issue on GitHub!
 
 ---
 
-**Enjoy your enhanced Anno 1701 experience! 🏛️**
+**Enjoy your enhanced Anno 117 experience! 🏛️**

@@ -4,7 +4,7 @@
 
 Before installing the Admin Mod, ensure you have:
 
-1. **Anno 1701 - Pax Romana** installed and working
+1. **Anno 117 - Pax Romana** installed and working
 2. A modern web browser (Chrome, Firefox, Edge, or Safari)
 3. Administrator rights (to modify game files)
 4. ~10 MB of free disk space
@@ -14,11 +14,11 @@ Before installing the Admin Mod, ensure you have:
 ### Method 1: Manual Installation (Recommended)
 
 #### Step 1: Backup Your Game
-1. Navigate to your Anno 1701 installation directory
-   - Steam: `C:\Program Files (x86)\Steam\steamapps\common\Anno1701\`
-   - Ubisoft: `C:\Program Files (x86)\Ubisoft\Anno 1701\`
+1. Navigate to your Anno 117 installation directory
+   - Steam: `C:\Program Files (x86)\Steam\steamapps\common\anno117\`
+   - Ubisoft: `C:\Program Files (x86)\Ubisoft\Anno 117\`
    - Custom: Check your installation location
-2. Create a backup folder: `Anno1701_Backup`
+2. Create a backup folder: `anno117_Backup`
 3. Copy the entire `data` folder to the backup location
 4. This ensures you can restore if needed
 
@@ -40,13 +40,13 @@ Before installing the Admin Mod, ensure you have:
    └── INSTALLATION.md (this file)
    ```
 
-3. Copy the **entire AdminMod folder** to your Anno 1701 installation directory
-4. Your Anno 1701 directory should now contain:
+3. Copy the **entire AdminMod folder** to your Anno 117 installation directory
+4. Your Anno 117 directory should now contain:
    ```
-   Anno1701/
+   anno117/
    ├── AdminMod/          ← New folder
    ├── data/              ← Existing folder
-   ├── Anno1701.exe       ← Game executable
+   ├── anno117.exe       ← Game executable
    └── [other game files]
    ```
 
@@ -60,30 +60,30 @@ The mod needs to integrate with game scripts:
 
 3. Copy the `adminmod` folder to:
    ```
-   Anno1701/data/script/content/adminmod/
+   anno117/data/script/content/adminmod/
    ```
 
 4. If prompted to merge folders, click **Yes** or **Merge**
 
 #### Step 5: Verify Installation
 Check that these paths exist:
-- ✅ `Anno1701/AdminMod/AdminPanel/index.html`
-- ✅ `Anno1701/AdminMod/README.md`
-- ✅ `Anno1701/data/script/content/adminmod/adminmod.lua`
-- ✅ `Anno1701/data/script/content/adminmod/init.lua`
+- ✅ `anno117/AdminMod/AdminPanel/index.html`
+- ✅ `anno117/AdminMod/README.md`
+- ✅ `anno117/data/script/content/adminmod/adminmod.lua`
+- ✅ `anno117/data/script/content/adminmod/init.lua`
 
 ### Method 2: Quick Copy (Alternative)
 
 If you're comfortable with file operations:
 
-1. Copy the entire `AdminMod` folder to your Anno 1701 directory
+1. Copy the entire `AdminMod` folder to your Anno 117 directory
 2. Done! The mod is self-contained and ready to use
 
 ## Post-Installation Setup
 
 ### Configure the Admin Panel
 
-1. Navigate to `Anno1701/AdminMod/AdminPanel/`
+1. Navigate to `anno117/AdminMod/AdminPanel/`
 2. Right-click `index.html`
 3. Choose "Open with" → Your preferred browser
 4. Bookmark this page for easy access
@@ -92,24 +92,24 @@ If you're comfortable with file operations:
 1. Right-click `index.html`
 2. Select "Create shortcut"
 3. Move the shortcut to your Desktop
-4. Rename it to "Anno 1701 Admin Panel"
+4. Rename it to "Anno 117 Admin Panel"
 
 ### Enable Mod Loading (Game-Specific)
 
-Anno 1701 may require additional steps to load custom scripts:
+Anno 117 may require additional steps to load custom scripts:
 
 #### For Steam Version:
-1. Right-click Anno 1701 in Steam Library
+1. Right-click Anno 117 in Steam Library
 2. Select "Properties"
 3. In "Launch Options", add: `-devmode`
 4. Click "OK"
 
 #### For Standalone Version:
-1. Locate `Anno1701.exe`
+1. Locate `anno117.exe`
 2. Right-click → "Create shortcut"
 3. Right-click the shortcut → "Properties"
 4. In "Target" field, add at the end: ` -devmode`
-5. Example: `"C:\...\Anno1701.exe" -devmode`
+5. Example: `"C:\...\anno117.exe" -devmode`
 6. Use this shortcut to launch the game
 
 **Note:** `-devmode` flag may vary by game version. Common alternatives:
@@ -126,7 +126,7 @@ If unsure, skip this step and try the mod without flags first.
 2. You should see the Admin Panel interface
 3. Keep this tab open
 
-### Step 2: Launch Anno 1701
+### Step 2: Launch Anno 117
 1. Start the game using your normal method (or shortcut with -devmode)
 2. Load an existing save or start a new game
 3. Wait for the game to fully load
@@ -149,7 +149,7 @@ Try these test commands:
 Look for console messages:
 ```
 ===========================================
-Anno 1701 Admin Mod - Loading...
+Anno 117 Admin Mod - Loading...
 ===========================================
 ✓ Admin Mod loaded successfully
 ✓ Version: 1.0.0
@@ -181,7 +181,7 @@ If you see this, the mod is working correctly!
 
 **Solution:**
 1. Close the game completely
-2. Close any Anno 1701 related processes
+2. Close any Anno 117 related processes
 3. Run file explorer as Administrator
 4. Try copying again
 
@@ -201,19 +201,19 @@ If you see this, the mod is working correctly!
 3. Try the `help` command first
 4. Check for error messages
 
-### Issue: Can't Find Anno 1701 Directory
+### Issue: Can't Find Anno 117 Directory
 
 **Common locations:**
-- Steam: `C:\Program Files (x86)\Steam\steamapps\common\Anno1701\`
-- Ubisoft Connect: `C:\Program Files (x86)\Ubisoft\Anno 1701\`
-- GOG: `C:\Program Files (x86)\GOG Galaxy\Games\Anno 1701\`
-- Custom: Search for `Anno1701.exe`
+- Steam: `C:\Program Files (x86)\Steam\steamapps\common\anno117\`
+- Ubisoft Connect: `C:\Program Files (x86)\Ubisoft\Anno 117\`
+- GOG: `C:\Program Files (x86)\GOG Galaxy\Games\Anno 117\`
+- Custom: Search for `anno117.exe`
 
 ## Uninstallation
 
 ### Complete Removal
 
-1. Navigate to Anno 1701 installation directory
+1. Navigate to Anno 117 installation directory
 2. Delete the `AdminMod` folder
 3. Delete `data/script/content/adminmod` folder
 4. Remove `-devmode` flag from launch options (if added)
@@ -223,7 +223,7 @@ If you see this, the mod is working correctly!
 
 If you created a backup:
 1. Delete current `data` folder
-2. Copy backup `data` folder to Anno 1701 directory
+2. Copy backup `data` folder to Anno 117 directory
 3. Remove `-devmode` flag
 
 ## Advanced Configuration
@@ -256,7 +256,7 @@ To add your own commands:
 
 ### Mod Compatibility
 
-The Admin Mod is designed to be compatible with most Anno 1701 mods. However:
+The Admin Mod is designed to be compatible with most Anno 117 mods. However:
 - Install Admin Mod **last** to avoid conflicts
 - Some script mods may override Admin Mod functions
 - Graphics/UI mods should not conflict
@@ -275,7 +275,7 @@ The Admin Mod is designed to be compatible with most Anno 1701 mods. However:
 
 ### Before Asking for Help
 Please provide:
-1. Anno 1701 version
+1. Anno 117 version
 2. Operating System
 3. Installation method used
 4. Error messages (if any)
@@ -303,12 +303,12 @@ Visit the GitHub repository regularly for:
 A: Yes, it only modifies game behavior through scripting. Always download from official sources.
 
 **Q: Will this work on Mac/Linux?**  
-A: The Admin Panel works on any OS. Game mod compatibility depends on Anno 1701 running on your system.
+A: The Admin Panel works on any OS. Game mod compatibility depends on Anno 117 running on your system.
 
 **Q: Can I use this in my YouTube videos?**  
 A: Yes! Attribution appreciated but not required.
 
-**Q: Does this work with Anno 1701 Venice expansion?**  
+**Q: Does this work with Anno 117 Venice expansion?**  
 A: This mod is designed for Pax Romana. Venice compatibility is not guaranteed.
 
 **Q: Can I distribute modified versions?**  

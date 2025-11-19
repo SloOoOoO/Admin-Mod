@@ -1,8 +1,8 @@
--- Anno 1701 Admin Mod Initialization Script
+-- Anno 117 Admin Mod Initialization Script
 -- This script loads and initializes the admin mod
 
 print("===========================================")
-print("Anno 1701 Admin Mod - Loading...")
+print("Anno 117 Admin Mod - Loading...")
 print("===========================================")
 
 -- Load the main admin mod module
@@ -35,7 +35,7 @@ print("===========================================")
 -- Define help command
 _G.help = function()
     print("")
-    print("=== Anno 1701 Admin Mod - Command Reference ===")
+    print("=== Anno 117 Admin Mod - Command Reference ===")
     print("")
     print("RESOURCES:")
     print("  Game.AddResource(type, amount)  - Add resources")

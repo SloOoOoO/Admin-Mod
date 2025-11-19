@@ -1,4 +1,4 @@
-// Anno 1701 Admin Panel JavaScript
+// Anno 117 Admin Panel JavaScript
 
 // Tab switching functionality
 document.addEventListener('DOMContentLoaded', function() {
@@ -322,5 +322,5 @@ style.textContent = `
 document.head.appendChild(style);
 
 // Log startup message
-console.log('Anno 1701 Admin Panel loaded successfully');
+console.log('Anno 117 Admin Panel loaded successfully');
 console.log('Commands will be copied to clipboard for easy execution in game console');

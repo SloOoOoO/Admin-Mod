@@ -1,11 +1,11 @@
 # Changelog
 
-All notable changes to the Anno 1701 Admin Mod will be documented in this file.
+All notable changes to the Anno 117 Admin Mod will be documented in this file.
 
-## [1.0.0] - 2024-11-19
+## [1.0.0] - 2025-11-19
 
 ### Added
-- Initial release of Admin Mod for Anno 1701 - Pax Romana
+- Initial release of Admin Mod for Anno 117 - Pax Romana
 - Web-based Admin Panel UI with tabbed interface
 - Resource management system
   - Add specific amounts of resources
@@ -54,7 +54,7 @@ All notable changes to the Anno 1701 Admin Mod will be documented in this file.
   - Troubleshooting section
 - Admin Panel features
   - Responsive design
-  - Dark theme with Anno 1701 inspired colors
+  - Dark theme with Anno 117 inspired colors
   - Intuitive navigation
   - Real-time status updates
   - Settings persistence
@@ -69,12 +69,12 @@ All notable changes to the Anno 1701 Admin Mod will be documented in this file.
 - Admin Panel built with vanilla HTML/CSS/JavaScript
 - No external dependencies required
 - Browser-based UI works on any platform
-- Lua scripts compatible with Anno 1701 scripting system
+- Lua scripts compatible with Anno 117 scripting system
 - Modular command structure for easy extension
 
 ### Known Limitations
 - Commands are templates and may require game-specific integration
-- Some features depend on Anno 1701's script API availability
+- Some features depend on Anno 117's script API availability
 - Multiplayer compatibility not tested
 - May conflict with other script-based mods
 

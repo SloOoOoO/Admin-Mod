@@ -1,4 +1,4 @@
-# Anno 1701 Admin Mod - Command Reference
+# Anno 117 Admin Mod - Command Reference
 
 ## Table of Contents
 1. [Resource Commands](#resource-commands)

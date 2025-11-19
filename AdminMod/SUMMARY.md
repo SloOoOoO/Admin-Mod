@@ -1,7 +1,7 @@
 # Admin Mod Implementation Summary
 
 ## Project Overview
-Complete admin and cheat mod for Anno 1701 - Pax Romana with browser-based UI.
+Complete admin and cheat mod for Anno 117 - Pax Romana with browser-based UI.
 
 ## Deliverables
 
@@ -92,7 +92,7 @@ Complete admin and cheat mod for Anno 1701 - Pax Romana with browser-based UI.
 
 ### Backend Stack
 - Lua 5.x compatible
-- Anno 1701 script API
+- Anno 117 script API
 - Modular architecture
 - Command pattern design
 
@@ -104,7 +104,7 @@ Complete admin and cheat mod for Anno 1701 - Pax Romana with browser-based UI.
 - Any modern browser with JavaScript
 
 ### Game Compatibility
-- Anno 1701 - Pax Romana
+- Anno 117 - Pax Romana
 - Windows, Mac (via Wine), Linux (via Wine/Proton)
 - Single-player mode
 
@@ -150,7 +150,7 @@ SUMMARY.md                      (this file)
 ## Installation Requirements
 
 ### User Requirements
-- Anno 1701 installed
+- Anno 117 installed
 - Web browser
 - File system access
 - ~10 MB disk space
@@ -222,7 +222,7 @@ All objectives achieved:
 
 ## Conclusion
 
-This Admin Mod provides a complete, professional solution for Anno 1701 players who want admin/cheat capabilities. The browser-based UI makes it accessible to non-technical users, while the console commands provide power users with flexibility. The mod is well-documented, secure, and ready for immediate use.
+This Admin Mod provides a complete, professional solution for Anno 117 players who want admin/cheat capabilities. The browser-based UI makes it accessible to non-technical users, while the console commands provide power users with flexibility. The mod is well-documented, secure, and ready for immediate use.
 
 **Project Quality: Production-Ready 🏆**
 

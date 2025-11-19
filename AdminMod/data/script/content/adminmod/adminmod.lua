@@ -1,4 +1,4 @@
--- Anno 1701 Admin Mod
+-- Anno 117 Admin Mod
 -- Main admin functionality module
 
 AdminMod = AdminMod or {}

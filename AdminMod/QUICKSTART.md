@@ -6,13 +6,13 @@
 Download the complete `AdminMod` folder from this repository.
 
 ### Step 2: Install Files
-1. Locate your Anno 1701 installation directory (usually in `Program Files`)
-2. Copy the entire `AdminMod` folder into your Anno 1701 directory
+1. Locate your Anno 117 installation directory (usually in `Program Files`)
+2. Copy the entire `AdminMod` folder into your Anno 117 directory
 3. Merge the `data` folder with your existing `data` folder when prompted
 
 **Your directory structure should look like:**
 ```
-Anno 1701/
+Anno 117/
 ├── AdminMod/
 │   ├── AdminPanel/
 │   │   ├── index.html
@@ -33,13 +33,13 @@ Anno 1701/
 ```
 
 ### Step 3: Open Admin Panel
-1. Navigate to `Anno 1701/AdminMod/AdminPanel/`
+1. Navigate to `Anno 117/AdminMod/AdminPanel/`
 2. Double-click `index.html`
 3. It will open in your default browser
 4. **Bookmark this page** for easy access!
 
 ### Step 4: Launch Game
-1. Start Anno 1701 normally
+1. Start Anno 117 normally
 2. Load or start a new game
 3. Keep the Admin Panel browser tab open
 
@@ -137,7 +137,7 @@ Game.RevealMap()
 **A:** Admin commands are designed for single-player only. Use in multiplayer may cause issues.
 
 ### Q: Will this disable achievements?
-**A:** Anno 1701 doesn't have achievements, but using cheats would typically disable them in games that do.
+**A:** Anno 117 doesn't have achievements, but using cheats would typically disable them in games that do.
 
 ### Q: Can I customize the admin panel?
 **A:** Yes! Edit the HTML, CSS, and JavaScript files to customize appearance and functionality.
@@ -165,7 +165,7 @@ Game.RevealMap()
 ### Game Issues?
 1. Verify game files through Steam/installer
 2. Remove other mods temporarily
-3. Check Anno 1701 game logs
+3. Check Anno 117 game logs
 4. Report issues on GitHub
 
 ## Next Steps
@@ -185,4 +185,4 @@ Open an issue on GitHub: [Admin-Mod Issues](https://github.com/SloOoOoO/Admin-Mo
 
 ---
 
-**Ready to play? Launch Anno 1701 and enjoy your admin powers! 🏛️**
+**Ready to play? Launch Anno 117 and enjoy your admin powers! 🏛️**

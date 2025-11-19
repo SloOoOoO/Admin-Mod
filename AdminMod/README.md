@@ -1,7 +1,7 @@
-# Anno 1701 Admin Mod - Installation Guide
+# Anno 117 Admin Mod - Installation Guide
 
 ## Overview
-This Admin Mod provides a comprehensive admin panel for Anno 1701 - Pax Romana with an easy-to-use interface for managing game features, cheats, and admin commands.
+This Admin Mod provides a comprehensive admin panel for Anno 117 - Pax Romana with an easy-to-use interface for managing game features, cheats, and admin commands.
 
 ## Features
 - **Admin Panel UI** - External browser-based control panel
@@ -15,16 +15,16 @@ This Admin Mod provides a comprehensive admin panel for Anno 1701 - Pax Romana w
 ## Installation
 
 ### Requirements
-- Anno 1701 - Pax Romana installed
+- Anno 117 - Pax Romana installed
 - Modern web browser (Chrome, Firefox, Edge)
 
 ### Installation Steps
 
 1. **Backup Your Game Files**
-   - Create a backup of your Anno 1701 installation directory
+   - Create a backup of your Anno 117 installation directory
 
 2. **Install the Mod**
-   - Copy the contents of the `AdminMod` folder to your Anno 1701 installation directory
+   - Copy the contents of the `AdminMod` folder to your Anno 117 installation directory
    - The structure should merge with existing folders:
      - `data/script/` → Your Anno Install/data/script/
      - `config/` → Your Anno Install/config/
@@ -34,7 +34,7 @@ This Admin Mod provides a comprehensive admin panel for Anno 1701 - Pax Romana w
    - Keep the panel open while playing
 
 4. **Start the Game**
-   - Launch Anno 1701 normally
+   - Launch Anno 117 normally
    - The admin commands will be available in-game
 
 ## Usage
@@ -88,18 +88,18 @@ See `COMMANDS.md` for a full list of available commands.
 
 ### Game Crashes
 - Remove mod files and verify game integrity
-- Check game logs in `Documents/Anno 1701/Logs/`
+- Check game logs in `Documents/Anno 117/Logs/`
 
 ## Uninstallation
 
-1. Remove the following folders from your Anno 1701 directory:
+1. Remove the following folders from your Anno 117 directory:
    - `data/script/content/adminmod/`
    - `AdminPanel/`
 
 2. Restore from backup if needed
 
 ## Credits
-Created for Anno 1701 - Pax Romana modding community
+Created for Anno 117 - Pax Romana modding community
 
 ## License
 Free to use and modify for personal use.
