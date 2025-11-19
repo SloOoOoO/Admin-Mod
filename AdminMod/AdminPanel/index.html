@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anno 117 Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .resource-category {
+            margin-bottom: 20px;
+        }
+        .resource-category-header {
+            background: var(--primary-color);
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+        .resource-category-header:hover {
+            background: var(--accent-color);
+        }
+        .resource-category-content {
+            display: none;
+            padding: 15px;
+            background: var(--background);
+            border-radius: 5px;
+            border-left: 4px solid var(--primary-color);
+        }
+        .resource-category-content.active {
+            display: block;
+        }
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .resource-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+            background: var(--surface);
+            border-radius: 4px;
+        }
+        .resource-item input {
+            width: 60px;
+            padding: 4px 8px;
+        }
+        .resource-item button {
+            padding: 4px 12px;
+            font-size: 0.9em;
+        }
+        .category-icon {
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        .expand-icon {
+            transition: transform 0.3s ease;
+        }
+        .expand-icon.rotated {
+            transform: rotate(180deg);
+        }
+        .quick-actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            width: 100%;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            border-radius: 5px;
+            color: var(--text-primary);
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ Anno 117 Admin Panel</h1>
+            <p class="subtitle">Pax Romana Admin Control Center - Complete Edition</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="resources">Resources</button>
+            <button class="tab-button" data-tab="buildings">Buildings</button>
+            <button class="tab-button" data-tab="game">Game Control</button>
+            <button class="tab-button" data-tab="players">Players</button>
+            <button class="tab-button" data-tab="debug">Debug</button>
+            <button class="tab-button" data-tab="help">Help</button>
+        </nav>
+
+        <main>
+            <!-- Resources Tab -->
+            <div class="tab-content active" id="resources">
+                <h2>Resource Management</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 20px;">
+                    110+ resources extracted from game files. Click categories to expand.
+                </p>
+
+                <input type="text" id="resource-search" class="search-box" placeholder="Search resources..." onkeyup="filterResources()">
+
+                <div class="quick-actions">
+                    <button class="btn-success" onclick="maxAllResources()">Max All Resources</button>
+                    <button onclick="expandAllCategories()">Expand All</button>
+                    <button onclick="collapseAllCategories()">Collapse All</button>
+                </div>
+
+                <!-- Money -->
+                <div class="section">
+                    <h3>💰 Currency</h3>
+                    <div class="control-group">
+                        <label>Add Coins:</label>
+                        <input type="number" id="coins-amount" value="100000" min="0">
+                        <button onclick="addResource('Money', '1010017', document.getElementById('coins-amount').value)">Add Coins</button>
+                        <button onclick="maxResource('Money', '1010017')">Max Coins</button>
+                    </div>
+                </div>
+
+                <!-- Construction Materials -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🏗️</span>Construction Materials (14)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="construction-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Food & Consumables -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🍞</span>Food & Consumables (13)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="food-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Agriculture -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🌾</span>Agriculture & Crops (11)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="agriculture-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Crafted Goods -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">👕</span>Crafted Goods & Clothing (11)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="crafted-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Luxury Goods -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">💎</span>Luxury Goods (14)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="luxury-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Animals -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">🐑</span>Animals & Livestock (6)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="animals-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Raw Materials -->
+                <div class="resource-category">
+                    <div class="resource-category-header" onclick="toggleCategory(this)">
+                        <span><span class="category-icon">⚙️</span>Raw Materials & Others (41)</span>
+                        <span class="expand-icon">▼</span>
+                    </div>
+                    <div class="resource-category-content">
+                        <div class="resource-grid" id="raw-grid"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Buildings Tab -->
+            <div class="tab-content" id="buildings">
+                <h2>Building Management</h2>
+                
+                <div class="section">
+                    <h3>⚡ Quick Actions</h3>
+                    <div class="grid-3">
+                        <button class="btn-action" onclick="executeCommand('instant_build')">
+                            <span class="icon">🏗️</span>
+                            Instant Build
+                        </button>
+                        <button class="btn-action" onclick="executeCommand('free_build')">
+                            <span class="icon">🆓</span>
+                            Free Building
+                        </button>
+                        <button class="btn-action" onclick="executeCommand('no_maintenance')">
+                            <span class="icon">💸</span>
+                            No Maintenance
+                        </button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🏛️ Building Types</h3>
+                    <div class="grid-2">
+                        <div class="control-group">
+                            <button class="btn-block" onclick="executeCommand('unlock_all_buildings')">Unlock All Buildings</button>
+                        </div>
+                        <div class="control-group">
+                            <button class="btn-block" onclick="executeCommand('remove_build_limits')">Remove Build Limits</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>⚙️ Building Options</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="instant-build-toggle" onchange="toggleFeature('instant_build', this.checked)">
+                        Enable Instant Building
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="free-build-toggle" onchange="toggleFeature('free_build', this.checked)">
+                        Enable Free Building
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="no-costs-toggle" onchange="toggleFeature('no_costs', this.checked)">
+                        No Building Costs
+                    </label>
+                </div>
+            </div>
+
+            <!-- Game Control Tab -->
+            <div class="tab-content" id="game">
+                <h2>Game Control</h2>
+                
+                <div class="section">
+                    <h3>⏱️ Game Speed</h3>
+                    <div class="control-group">
+                        <label>Speed Multiplier:</label>
+                        <input type="range" id="game-speed" min="0.5" max="10" step="0.5" value="1" oninput="updateGameSpeed(this.value)">
+                        <span id="speed-value">1x</span>
+                    </div>
+                    <div class="grid-3">
+                        <button onclick="setGameSpeed(0.5)">0.5x</button>
+                        <button onclick="setGameSpeed(1)">1x Normal</button>
+                        <button onclick="setGameSpeed(2)">2x</button>
+                        <button onclick="setGameSpeed(5)">5x</button>
+                        <button onclick="setGameSpeed(10)">10x</button>
+                        <button onclick="pauseGame()">⏸️ Pause</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🎮 Game Options</h3>
+                    <div class="grid-2">
+                        <button class="btn-block" onclick="executeCommand('reveal_map')">Reveal Full Map</button>
+                        <button class="btn-block" onclick="executeCommand('fog_of_war_off')">Disable Fog of War</button>
+                        <button class="btn-block" onclick="executeCommand('god_mode')">Enable God Mode</button>
+                        <button class="btn-block" onclick="executeCommand('invincibility')">Enable Invincibility</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Players Tab -->
+            <div class="tab-content" id="players">
+                <h2>Player Management</h2>
+                
+                <div class="section">
+                    <h3>👥 AI Control</h3>
+                    <div class="grid-2">
+                        <button class="btn-block" onclick="executeCommand('disable_ai')">Disable All AI</button>
+                        <button class="btn-block" onclick="executeCommand('enable_ai')">Enable All AI</button>
+                        <button class="btn-block" onclick="executeCommand('peaceful_ai')">Make AI Peaceful</button>
+                        <button class="btn-block" onclick="executeCommand('aggressive_ai')">Make AI Aggressive</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🤝 Diplomacy</h3>
+                    <div class="grid-2">
+                        <button class="btn-block" onclick="executeCommand('reset_diplomacy')">Reset All Diplomacy</button>
+                        <button class="btn-block" onclick="executeCommand('max_reputation')">Max Reputation</button>
+                        <button class="btn-block" onclick="executeCommand('alliance_all')">Alliance with All</button>
+                        <button class="btn-block" onclick="executeCommand('war_all')">War with All</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🏆 Victory</h3>
+                    <div class="grid-2">
+                        <button class="btn-block btn-success" onclick="executeCommand('instant_win')">Instant Victory</button>
+                        <button class="btn-block btn-danger" onclick="executeCommand('instant_lose')">Instant Defeat</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Debug Tab -->
+            <div class="tab-content" id="debug">
+                <h2>Debug Tools</h2>
+                
+                <div class="section">
+                    <h3>🔍 Debug Overlays</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="fps-toggle" onchange="toggleFeature('show_fps', this.checked)">
+                        Show FPS Counter
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="grid-toggle" onchange="toggleFeature('show_grid', this.checked)">
+                        Show Build Grid
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="collision-toggle" onchange="toggleFeature('show_collision', this.checked)">
+                        Show Collision Boxes
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="paths-toggle" onchange="toggleFeature('show_paths', this.checked)">
+                        Show Pathfinding
+                    </label>
+                </div>
+
+                <div class="section">
+                    <h3>📊 Performance</h3>
+                    <div class="control-group">
+                        <button class="btn-block" onclick="executeCommand('optimize_performance')">Optimize Performance</button>
+                        <button class="btn-block" onclick="executeCommand('clear_cache')">Clear Cache</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>📝 Console</h3>
+                    <div class="console-container">
+                        <div id="console-output" class="console-output"></div>
+                        <div class="console-input-group">
+                            <input type="text" id="console-input" placeholder="Enter command..." onkeypress="handleConsoleInput(event)">
+                            <button onclick="executeConsoleCommand()">Execute</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Help Tab -->
+            <div class="tab-content" id="help">
+                <h2>Help & Documentation</h2>
+                
+                <div class="section">
+                    <h3>📖 How to Use</h3>
+                    <ol>
+                        <li>Keep this admin panel open in your browser</li>
+                        <li>Launch Anno 117: Pax Romana</li>
+                        <li>Use the tabs above to access different admin features</li>
+                        <li>Click buttons to execute commands instantly</li>
+                        <li>Commands are copied to clipboard and logged in console</li>
+                    </ol>
+                </div>
+
+                <div class="section">
+                    <h3>🎯 Resource System</h3>
+                    <p>This admin mod includes <strong>110+ actual resources</strong> extracted from Anno 117 game files:</p>
+                    <ul>
+                        <li><strong>Construction Materials:</strong> Timber, Marble, Iron, Limestone, Granite, etc.</li>
+                        <li><strong>Food:</strong> Bread, Garum, Wine, Cheese, Fish, Beer, etc.</li>
+                        <li><strong>Agriculture:</strong> Wheat, Olives, Grapes, Hemp, Flax, etc.</li>
+                        <li><strong>Crafted Goods:</strong> Tunics, Togas, Sandals, Cloth, etc.</li>
+                        <li><strong>Luxury:</strong> Gold, Silver, Glass, Amphorae, Jewelry, etc.</li>
+                        <li><strong>Animals:</strong> Sheep, Horses, Pigs, Aurochs, etc.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>⚠️ Important Notes</h3>
+                    <div class="alert alert-warning">
+                        <strong>Warning:</strong> Using admin commands may affect game balance.
+                        Always backup your saves before using cheats!
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🔗 Resources</h3>
+                    <ul>
+                        <li><a href="../README.md">Installation Guide</a></li>
+                        <li><a href="../COMMANDS.md">Full Command Reference</a></li>
+                        <li><a href="https://github.com/SloOoOoO/Admin-Mod">GitHub Repository</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Anno 117 Admin Mod v1.0 | <span id="status">Ready</span> | 110+ Resources from Game Files</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

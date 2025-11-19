@@ -1,0 +1,42 @@
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.rar
+*.7z
+
+# User-specific files
+config.local.*
+settings.local.*
+
+# Node modules (if any are added later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test files
+test-output/
+coverage/
+
+# Backup files
+backup/
+*_backup/
