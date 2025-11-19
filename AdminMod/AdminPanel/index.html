@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anno 1701 Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ Anno 1701 Admin Panel</h1>
+            <p class="subtitle">Pax Romana Admin Control Center</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="resources">Resources</button>
+            <button class="tab-button" data-tab="buildings">Buildings</button>
+            <button class="tab-button" data-tab="game">Game Control</button>
+            <button class="tab-button" data-tab="players">Players</button>
+            <button class="tab-button" data-tab="debug">Debug</button>
+            <button class="tab-button" data-tab="help">Help</button>
+        </nav>
+
+        <main>
+            <!-- Resources Tab -->
+            <div class="tab-content active" id="resources">
+                <h2>Resource Management</h2>
+                
+                <div class="section">
+                    <h3>💰 Currency</h3>
+                    <div class="control-group">
+                        <label>Add Coins:</label>
+                        <input type="number" id="coins-amount" value="10000" min="0">
+                        <button onclick="addResource('coins')">Add Coins</button>
+                        <button onclick="maxResource('coins')">Max Coins</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🪵 Materials</h3>
+                    <div class="grid-2">
+                        <div class="control-group">
+                            <label>Wood:</label>
+                            <input type="number" id="wood-amount" value="100" min="0">
+                            <button onclick="addResource('wood')">Add</button>
+                        </div>
+                        <div class="control-group">
+                            <label>Stone:</label>
+                            <input type="number" id="stone-amount" value="100" min="0">
+                            <button onclick="addResource('stone')">Add</button>
+                        </div>
+                        <div class="control-group">
+                            <label>Tools:</label>
+                            <input type="number" id="tools-amount" value="50" min="0">
+                            <button onclick="addResource('tools')">Add</button>
+                        </div>
+                        <div class="control-group">
+                            <label>Weapons:</label>
+                            <input type="number" id="weapons-amount" value="50" min="0">
+                            <button onclick="addResource('weapons')">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🌾 Food & Goods</h3>
+                    <div class="grid-2">
+                        <div class="control-group">
+                            <label>Food:</label>
+                            <input type="number" id="food-amount" value="100" min="0">
+                            <button onclick="addResource('food')">Add</button>
+                        </div>
+                        <div class="control-group">
+                            <label>Cloth:</label>
+                            <input type="number" id="cloth-amount" value="50" min="0">
+                            <button onclick="addResource('cloth')">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <button class="btn-large btn-success" onclick="maxAllResources()">Max All Resources</button>
+                </div>
+            </div>
+
+            <!-- Buildings Tab -->
+            <div class="tab-content" id="buildings">
+                <h2>Building Management</h2>
+                
+                <div class="section">
+                    <h3>⚡ Quick Actions</h3>
+                    <div class="grid-3">
+                        <button class="btn-action" onclick="executeCommand('instant_build')">
+                            <span class="icon">🏗️</span>
+                            Instant Build
+                        </button>
+                        <button class="btn-action" onclick="executeCommand('free_build')">
+                            <span class="icon">🆓</span>
+                            Free Building
+                        </button>
+                        <button class="btn-action" onclick="executeCommand('no_maintenance')">
+                            <span class="icon">💸</span>
+                            No Maintenance
+                        </button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🏛️ Building Types</h3>
+                    <div class="grid-2">
+                        <div class="control-group">
+                            <button class="btn-block" onclick="executeCommand('unlock_all_buildings')">Unlock All Buildings</button>
+                        </div>
+                        <div class="control-group">
+                            <button class="btn-block" onclick="executeCommand('remove_build_limits')">Remove Build Limits</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>⚙️ Building Options</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="instant-build-toggle" onchange="toggleFeature('instant_build', this.checked)">
+                        Enable Instant Building
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="free-build-toggle" onchange="toggleFeature('free_build', this.checked)">
+                        Enable Free Building
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="no-costs-toggle" onchange="toggleFeature('no_costs', this.checked)">
+                        No Building Costs
+                    </label>
+                </div>
+            </div>
+
+            <!-- Game Control Tab -->
+            <div class="tab-content" id="game">
+                <h2>Game Control</h2>
+                
+                <div class="section">
+                    <h3>⏱️ Game Speed</h3>
+                    <div class="control-group">
+                        <label>Speed Multiplier:</label>
+                        <input type="range" id="game-speed" min="0.5" max="10" step="0.5" value="1" oninput="updateGameSpeed(this.value)">
+                        <span id="speed-value">1x</span>
+                    </div>
+                    <div class="grid-3">
+                        <button onclick="setGameSpeed(0.5)">0.5x</button>
+                        <button onclick="setGameSpeed(1)">1x Normal</button>
+                        <button onclick="setGameSpeed(2)">2x</button>
+                        <button onclick="setGameSpeed(5)">5x</button>
+                        <button onclick="setGameSpeed(10)">10x</button>
+                        <button onclick="pauseGame()">⏸️ Pause</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🎮 Game Options</h3>
+                    <div class="grid-2">
+                        <button class="btn-block" onclick="executeCommand('reveal_map')">Reveal Full Map</button>
+                        <button class="btn-block" onclick="executeCommand('fog_of_war_off')">Disable Fog of War</button>
+                        <button class="btn-block" onclick="executeCommand('god_mode')">Enable God Mode</button>
+                        <button class="btn-block" onclick="executeCommand('invincibility')">Enable Invincibility</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>💾 Save/Load</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="auto-save-toggle" onchange="toggleFeature('auto_save', this.checked)">
+                        Enable Auto-Save Every 5 Minutes
+                    </label>
+                </div>
+            </div>
+
+            <!-- Players Tab -->
+            <div class="tab-content" id="players">
+                <h2>Player Management</h2>
+                
+                <div class="section">
+                    <h3>👥 AI Control</h3>
+                    <div class="grid-2">
+                        <button class="btn-block" onclick="executeCommand('disable_ai')">Disable All AI</button>
+                        <button class="btn-block" onclick="executeCommand('enable_ai')">Enable All AI</button>
+                        <button class="btn-block" onclick="executeCommand('peaceful_ai')">Make AI Peaceful</button>
+                        <button class="btn-block" onclick="executeCommand('aggressive_ai')">Make AI Aggressive</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🤝 Diplomacy</h3>
+                    <div class="grid-2">
+                        <button class="btn-block" onclick="executeCommand('reset_diplomacy')">Reset All Diplomacy</button>
+                        <button class="btn-block" onclick="executeCommand('max_reputation')">Max Reputation</button>
+                        <button class="btn-block" onclick="executeCommand('alliance_all')">Alliance with All</button>
+                        <button class="btn-block" onclick="executeCommand('war_all')">War with All</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🏆 Victory</h3>
+                    <div class="grid-2">
+                        <button class="btn-block btn-success" onclick="executeCommand('instant_win')">Instant Victory</button>
+                        <button class="btn-block btn-danger" onclick="executeCommand('instant_lose')">Instant Defeat</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Debug Tab -->
+            <div class="tab-content" id="debug">
+                <h2>Debug Tools</h2>
+                
+                <div class="section">
+                    <h3>🔍 Debug Overlays</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="fps-toggle" onchange="toggleFeature('show_fps', this.checked)">
+                        Show FPS Counter
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="grid-toggle" onchange="toggleFeature('show_grid', this.checked)">
+                        Show Build Grid
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="collision-toggle" onchange="toggleFeature('show_collision', this.checked)">
+                        Show Collision Boxes
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="paths-toggle" onchange="toggleFeature('show_paths', this.checked)">
+                        Show Pathfinding
+                    </label>
+                </div>
+
+                <div class="section">
+                    <h3>📊 Performance</h3>
+                    <div class="control-group">
+                        <button class="btn-block" onclick="executeCommand('optimize_performance')">Optimize Performance</button>
+                        <button class="btn-block" onclick="executeCommand('clear_cache')">Clear Cache</button>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>📝 Console</h3>
+                    <div class="console-container">
+                        <div id="console-output" class="console-output"></div>
+                        <div class="console-input-group">
+                            <input type="text" id="console-input" placeholder="Enter command..." onkeypress="handleConsoleInput(event)">
+                            <button onclick="executeConsoleCommand()">Execute</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Help Tab -->
+            <div class="tab-content" id="help">
+                <h2>Help & Documentation</h2>
+                
+                <div class="section">
+                    <h3>📖 How to Use</h3>
+                    <ol>
+                        <li>Keep this admin panel open in your browser</li>
+                        <li>Launch Anno 1701 - Pax Romana</li>
+                        <li>Use the tabs above to access different admin features</li>
+                        <li>Click buttons to execute commands instantly</li>
+                        <li>Commands are executed in the game console</li>
+                    </ol>
+                </div>
+
+                <div class="section">
+                    <h3>⌨️ Keyboard Shortcuts</h3>
+                    <table class="shortcuts-table">
+                        <tr>
+                            <td><code>~</code> or <code>`</code></td>
+                            <td>Open in-game console</td>
+                        </tr>
+                        <tr>
+                            <td><code>Ctrl + R</code></td>
+                            <td>Refresh admin panel</td>
+                        </tr>
+                        <tr>
+                            <td><code>F1</code></td>
+                            <td>Toggle help overlay</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="section">
+                    <h3>⚠️ Important Notes</h3>
+                    <div class="alert alert-warning">
+                        <strong>Warning:</strong> Using admin commands may affect game balance and achievements.
+                        Always backup your saves before using cheats!
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>🔗 Resources</h3>
+                    <ul>
+                        <li><a href="../README.md">Installation Guide</a></li>
+                        <li><a href="../COMMANDS.md">Full Command Reference</a></li>
+                        <li><a href="https://github.com/SloOoOoO/Admin-Mod">GitHub Repository</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Anno 1701 Admin Mod v1.0 | <span id="status">Ready</span></p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
